@@ -1,6 +1,7 @@
-import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn, BeforeUpdate, BeforeInsert } from "typeorm"
 import { IsEmail, MinLength } from 'class-validator';
 import { UserTipo } from '@entity/UserTipo';
+import bcrypt from 'bcryptjs';
 
 @Entity()
 export class User {
@@ -28,6 +29,14 @@ export class User {
         message: "Senha muito curta."
     })
     senha: string;
+
+    @BeforeInsert()
+    @BeforeUpdate()
+    hashPassword() {
+      const salt = bcrypt.genSaltSync();
+      console.info(salt);
+      this.senha = bcrypt.hashSync(this.senha, salt);
+    }
     
     @ManyToOne(() => UserTipo)
     @JoinColumn({ name: "tipo_key", referencedColumnName: "key" })

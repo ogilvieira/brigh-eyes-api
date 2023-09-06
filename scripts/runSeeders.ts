@@ -1,7 +1,7 @@
 import DotEnv from 'dotenv';
 DotEnv.config();
-import { runSeeders } from 'typeorm-extension';
-import Database from '@plugins/database';
+import { runSeeders, createDatabase } from 'typeorm-extension';
+import { Database, DataBaseOptions } from '@plugins/database';
 import { DataSource } from "typeorm"
 
 async function seedOneByOne(seeds: string[], dataSource: DataSource) {
@@ -23,7 +23,17 @@ async function seedOneByOne(seeds: string[], dataSource: DataSource) {
 
 
 (async() => {
+    
+    await createDatabase({
+        options: {
+            ...DataBaseOptions,
+            logging: 'all'
+        },
+        ifNotExist: true
+    });
+
     const dataSource = await Database();
+
     const seeds = [
         './app/seed/User.seed.ts',
         './app/seed/UserTipo.seed.ts'

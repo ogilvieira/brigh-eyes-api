@@ -6,14 +6,25 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register app/index.ts",
     "dev": "nodemon --config nodemon.json",
-    "seed": "ts-node -r tsconfig-paths/register scripts/runSeeders.ts"
+    "db:seed": "ts-node -r tsconfig-paths/register scripts/runSeeders.ts",
+    "db:drop": "ts-node -r tsconfig-paths/register scripts/dropDatabase.ts",
+    "prepare": "husky install",
+    "lint": "eslint -c .eslintrc.js --ext .js,.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.1",
+    "@types/bcryptjs": "^2.4.3",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "bcryptjs": "^2.4.3",
     "class-validator": "^0.14.0",
     "dotenv": "^16.3.1",
+    "eslint": "^8.48.0",
     "fastify": "^4.22.2",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",

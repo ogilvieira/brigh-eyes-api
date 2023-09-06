@@ -7,7 +7,7 @@ export default class UserSeeder implements Seeder {
         dataSource: DataSource,
     ): Promise<any> {       
         const repository = dataSource.getRepository(User);
-        await repository.insert([
+        const users = repository.create([
             {
                 nome: 'Ariane',
                 sobrenome: 'Araújo Cabral de Figueiredo',
@@ -55,5 +55,8 @@ export default class UserSeeder implements Seeder {
                 tipo_key: "gerente"
             }
         ]);
+        
+        await repository.save(users);
+
     }
 }
