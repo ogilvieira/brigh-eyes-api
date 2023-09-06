@@ -1,0 +1,30 @@
+{
+  "name": "bright-eyes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.ts",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register app/index.ts",
+    "dev": "nodemon --config nodemon.json",
+    "seed": "ts-node -r tsconfig-paths/register scripts/runSeeders.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.22.2",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typeorm": "^0.3.17",
+    "typeorm-extension": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1"
+  }
+}
