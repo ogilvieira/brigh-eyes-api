@@ -26,6 +26,7 @@
     "dotenv": "^16.3.1",
     "eslint": "^8.48.0",
     "fastify": "^4.22.2",
+    "lint-staged": "^14.0.1",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^10.9.1",
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "husky": "^8.0.0"
   }
 }
