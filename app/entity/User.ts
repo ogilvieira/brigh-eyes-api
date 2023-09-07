@@ -10,14 +10,11 @@ export class User {
     id: number
 
     @Column({ nullable: false })
-    @MinLength(3, {
-        message: 'Nome curto demais.'
-    })
+    @MinLength(3, { message: 'Nome curto demais.' })
     nome: string;
 
-    @MinLength(3, {
-        message: 'Sobrenome curto demais.'
-    })
+    @Column()
+    @MinLength(3, { message: 'Sobrenome curto demais.' })
     sobrenome: string;
 
     @Column({ nullable: false, unique: true })
@@ -25,16 +22,13 @@ export class User {
     email: string;
 
     @Column({ nullable: false })
-    @MinLength(6, {
-        message: "Senha muito curta."
-    })
+    @MinLength(6, { message: "Senha muito curta." })
     senha: string;
 
     @BeforeInsert()
     @BeforeUpdate()
     hashPassword() {
       const salt = bcrypt.genSaltSync();
-      console.info(salt);
       this.senha = bcrypt.hashSync(this.senha, salt);
     }
     

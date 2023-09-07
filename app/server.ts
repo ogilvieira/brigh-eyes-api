@@ -1,21 +1,31 @@
-import fastify from 'fastify';
-import { Database } from '@plugins/database';
-import cors from '@fastify/cors';
-import fastifyJwt from '@fastify/jwt';
+import fastify, { FastifyReply, FastifyRequest } from 'fastify';
+import { AppDataSource } from '@plugins/database';
+import fastifyCors from '@fastify/cors';
+import fastifyFormBody from '@fastify/formbody';
+import fastifyAutoload from '@fastify/autoload';
+import auth from '@plugins/auth';
+import path from 'path';
 
 async function createServer() {
 
   try {
-    await Database();
+    await AppDataSource.initialize();
     const server = fastify({ logger: (/true/).test(process.env.SERVER_LOG || '') });
-    
-    await server.register(fastifyJwt, {
-      secret: (process.env.JWT_SECRET ?? '')
-    })
-
-    await server.register(cors);
   
+    server.register(fastifyCors, { origin: '*' });
+    server.register(fastifyFormBody);
 
+    server.get('/', (request: FastifyRequest, reply: FastifyReply) => {
+      return reply.send("Ok");
+    });
+
+    server.register(auth);
+
+    server.register(fastifyAutoload, {
+      dir: path.join(__dirname, '/routes')
+    });
+    
+  
     return server;
   
   } catch (err) {

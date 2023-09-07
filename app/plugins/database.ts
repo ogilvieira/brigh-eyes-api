@@ -13,16 +13,4 @@ export const DataBaseOptions: DataSourceOptions = {
     entities: ["./app/entity/**/*.ts"]
 };
 
-export async function Database() {
-   
-    const dataSource = new DataSource(DataBaseOptions);
-
-    try {
-        await dataSource.initialize();
-        return dataSource;
-    } catch (err) {
-        console.error(err);
-        throw err;
-    };
-
-}
+export const AppDataSource = new DataSource(DataBaseOptions);

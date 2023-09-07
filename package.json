@@ -17,7 +17,7 @@
   "dependencies": {
     "@fastify/autoload": "^5.7.1",
     "@fastify/cors": "^8.3.0",
-    "@fastify/jwt": "^7.2.1",
+    "@fastify/formbody": "^7.4.0",
     "@types/bcryptjs": "^2.4.3",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
@@ -26,6 +26,8 @@
     "dotenv": "^16.3.1",
     "eslint": "^8.48.0",
     "fastify": "^4.22.2",
+    "fastify-plugin": "^4.5.1",
+    "jsonwebtoken": "^9.0.2",
     "lint-staged": "^14.0.1",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",
@@ -33,11 +35,13 @@
     "tsconfig-paths": "^4.2.0",
     "typeorm": "^0.3.17",
     "typeorm-extension": "^3.0.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "^20.5.9",
-    "nodemon": "^3.0.1",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "nodemon": "^3.0.1"
   }
 }

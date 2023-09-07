@@ -12,10 +12,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
+    "typeRoots": ["./types"],
     "paths": {
+      "@controllers/*": ["./app/controllers/*"],
       "@entity/*": ["./app/entity/*"],
-      "@server/*": ["./app/server/*"],
-      "@plugins/*": ["./app/plugins/*"]
+      "@helpers/*": ["./app/helpers/*"],
+      "@plugins/*": ["./app/plugins/*"],
+      "@routes/*": ["./app/routes/*"]
     }  
   },
   "exclude": [
