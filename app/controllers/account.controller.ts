@@ -89,7 +89,6 @@ type RecoverRequest = FastifyRequest<{
 }>
 
 async function recover(request: RecoverRequest , reply: FastifyReply) {
-  
   const email = request.body?.email ?? '';
 
   if(!validator.isEmail(email)) {

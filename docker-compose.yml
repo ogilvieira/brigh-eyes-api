@@ -6,11 +6,18 @@ services:
     depends_on:
       - postgres
     environment:
-      DATABASE_URL: postgres://user:pass@postgres:5432/db
-      NODE_ENV: development
-      PORT: 3000
+      PORT: 8080
+      SERVER_LOG: false
+      DB_HOST: localhost
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASS: root
+      DB_NAME: brighteyes
+      DB_SYNC: true
+      DB_LOG: false
+      JWT_SECRET: br1g8t3y3s
     ports:
-      - "3000:3000"
+      - "8080:8080"
     command: npm run dev
     volumes:
       - .:/app/
@@ -19,8 +26,8 @@ services:
   postgres:
     image: postgres:14
     ports:
-      - "35432:5432"
+      - "5432:5432"
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: pass
-      POSTGRES_DB: db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: brighteyes
