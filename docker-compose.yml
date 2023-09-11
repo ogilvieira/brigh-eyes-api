@@ -1,16 +1,18 @@
 version: "3"
 services:
   app:
-    restart: on-failure
+    restart: always
     build: .
     depends_on:
+      - postgres
+    links:
       - postgres
     environment:
       PORT: 8080
       SERVER_LOG: false
-      DB_HOST: localhost
+      DB_HOST: postgres
       DB_PORT: 5432
-      DB_USER: postgres
+      DB_USER: root
       DB_PASS: root
       DB_NAME: brighteyes
       DB_SYNC: true
@@ -25,9 +27,19 @@ services:
 
   postgres:
     image: postgres:14
-    ports:
-      - "5432:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "postgres" ]
+      timeout: 45s
+      interval: 10s
+      retries: 10
+    restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: brighteyes
+      APP_DB_USER: root
+      APP_DB_PASS: root
+      APP_DB_NAME: brighteyes
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+    ports:
+      - "5432:5432"
