@@ -17,6 +17,10 @@ export class User {
     @MinLength(3, { message: 'Sobrenome curto demais.' })
     sobrenome: string;
 
+    @Column()
+    @MinLength(11, { message: 'CPF curto demais.' })
+    cpf: string;
+
     @Column({ nullable: false, unique: true })
     @IsEmail()
     email: string;
