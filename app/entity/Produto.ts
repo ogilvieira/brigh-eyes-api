@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, CreateDateColumn, UpdateDateColumn } from "typeorm"
 import { MinLength } from 'class-validator';
   
 @Entity()
@@ -30,4 +30,13 @@ export class Produto {
         message: 'Descrição curta demais.'
     })
     preco: number
+
+    @DeleteDateColumn()
+    deleted_at: Date;
+
+    @CreateDateColumn()
+    created_at: Date;
+
+    @UpdateDateColumn()
+    updated_at: Date;
 }

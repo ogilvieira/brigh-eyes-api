@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn, BeforeUpdate, BeforeInsert } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn, BeforeUpdate, BeforeInsert, CreateDateColumn, UpdateDateColumn } from "typeorm"
 import { IsEmail, MinLength } from 'class-validator';
 import { UserTipo } from '@entity/UserTipo';
 import bcrypt from 'bcryptjs';
@@ -45,4 +45,11 @@ export class User {
 
     @DeleteDateColumn()
     deleted_at: Date;
+
+    @CreateDateColumn()
+    created_at: Date;
+
+    @UpdateDateColumn()
+    updated_at: Date;
+    
 }
