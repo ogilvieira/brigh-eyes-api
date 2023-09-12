@@ -13,8 +13,8 @@ export default class UserTipoSeeder implements Seeder {
                 titulo: 'Cliente'
             },
             {
-                key: 'vendedor',
-                titulo: 'Vendedor'
+                key: 'editor',
+                titulo: 'Editor(a)'
             },
             {
                 key: 'gerente',
