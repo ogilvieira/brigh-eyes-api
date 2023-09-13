@@ -10,7 +10,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
       fabricante character varying NOT NULL,
       imagem character varying NOT NULL,
       descricao character varying NOT NULL,
-      preco integer NOT NULL,
+      preco numeric(9,2) NOT NULL,
       deleted_at timestamp without time zone,
       created_at timestamp without time zone DEFAULT now() NOT NULL,
       updated_at timestamp without time zone DEFAULT now() NOT NULL

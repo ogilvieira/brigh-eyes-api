@@ -25,7 +25,7 @@ export class Produto {
     })
     descricao: string
 
-    @Column('decimal', { precision: 6, scale: 2 })
+    @Column('decimal', { precision: 9, scale: 2, nullable: false, default: 0 })
     preco: number
 
     @DeleteDateColumn()
