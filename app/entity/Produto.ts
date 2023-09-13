@@ -25,10 +25,7 @@ export class Produto {
     })
     descricao: string
 
-    @Column()
-    @MinLength(3, {
-        message: 'Descrição curta demais.'
-    })
+    @Column('decimal', { precision: 6, scale: 2 })
     preco: number
 
     @DeleteDateColumn()

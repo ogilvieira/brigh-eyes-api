@@ -1,22 +1,21 @@
 import DotEnv from 'dotenv';
 DotEnv.config();
-import { runSeeders, createDatabase } from 'typeorm-extension';
+import { runSeeder, createDatabase } from 'typeorm-extension';
 import { AppDataSource, DataBaseOptions } from '@plugins/database';
 import { DataSource } from "typeorm"
+import ProdutoSeeder from 'app/seed/Produto.seed';
 
-async function seedOneByOne(seeds: string[], dataSource: DataSource) {
+async function seedOneByOne(seeds: any[], dataSource: DataSource) {
     
     if(!seeds.length){ return; }
 
     const seedOfTime: string = seeds.pop() ?? '';
     
-    console.info(`Seed: "${seedOfTime}\n\n"`);
+    console.info(`Seed: "${seedOfTime}"\n\n`);
 
     try {
-        await runSeeders(dataSource, {
-            seeds: [seedOfTime]
-        });
-
+        const res = await runSeeder(dataSource, seedOfTime);
+        console.info("done =>", res);
         return seedOneByOne(seeds, dataSource);
     } catch(err) {
         console.error(err);
@@ -37,8 +36,7 @@ async function seedOneByOne(seeds: string[], dataSource: DataSource) {
     const dataSource = await AppDataSource.initialize();
 
     const seeds = [
-        './app/seed/User.seed.ts',
-        './app/seed/UserTipo.seed.ts'
+      ProdutoSeeder
     ];
 
     await seedOneByOne(seeds, dataSource);

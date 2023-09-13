@@ -11,7 +11,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root
-      APP_DB_USER: root
+      APP_DB_USER: postgres
       APP_DB_PASS: root
       APP_DB_NAME: brighteyes
     volumes:
@@ -31,7 +31,7 @@ services:
       SERVER_LOG: false
       DB_HOST: database
       DB_PORT: 5432
-      DB_USER: root
+      DB_USER: postgres
       DB_PASS: root
       DB_NAME: brighteyes
       DB_SYNC: true
