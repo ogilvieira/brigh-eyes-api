@@ -3,6 +3,8 @@ import { AppDataSource } from '@plugins/database';
 import fastifyCors from '@fastify/cors';
 import fastifyFormBody from '@fastify/formbody';
 import fastifyAutoload from '@fastify/autoload';
+import fastifyStatic from '@fastify/static';
+
 import auth from '@plugins/auth';
 import path from 'path';
 
@@ -25,6 +27,10 @@ async function createServer() {
       dir: path.join(__dirname, '/routes')
     });
     
+    server.register(fastifyStatic, {
+      root: path.join(__dirname, '../public'),
+      prefix: '/public/'
+    })
   
     return server;
   

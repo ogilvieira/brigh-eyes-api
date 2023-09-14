@@ -1,7 +1,7 @@
 import { FastifyInstance } from "fastify";
 import AccountController from '@controllers/account.controller';
 
-export default (server: FastifyInstance) => {
+export default async (server: FastifyInstance) => {
   server.post('/account/oauth', AccountController.oauth);
   server.post('/account/recuperar', AccountController.recover);
   server.post('/account/register', AccountController.register);
