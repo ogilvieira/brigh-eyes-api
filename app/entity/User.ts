@@ -43,8 +43,10 @@ export class User {
     @BeforeInsert()
     @BeforeUpdate()
     hashPassword() {
-      const salt = bcrypt.genSaltSync();
-      this.senha = bcrypt.hashSync(this.senha, salt);
+      if( this.senha ) {
+        const salt = bcrypt.genSaltSync();
+        this.senha = bcrypt.hashSync(this.senha, salt);
+      }
     }
     
     @ManyToOne(() => UserTipo)

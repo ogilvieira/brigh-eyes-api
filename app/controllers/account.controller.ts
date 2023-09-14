@@ -156,9 +156,89 @@ async function register(request: RegisterRequest, reply: FastifyReply) {
   }
 }
 
+async function profile(request: FastifyRequest , reply: FastifyReply) {
+  const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+
+ 
+  try {
+    if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+    const { id } = decodetoken;
+
+    const user = await userRepository.findOne({ 
+      select: ['id', 'nome', 'sobrenome', 'nascimento', 'email', 'telefone', 'cpf'],
+      where: { id: id }
+    });
+  
+    reply.send(user);
+  
+  } catch (err) {
+    return err;
+  }
+}
+
+async function profileUpdate(request: RegisterRequest , reply: FastifyReply) {
+  const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+
+  try {
+    if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+    const { id } = decodetoken; 
+
+    const userData = new User();
+    userData.nome = request.body.nome;
+    userData.sobrenome = request.body.sobrenome;
+    userData.nascimento = request.body.nascimento;
+    userData.cpf = request.body.cpf;
+    userData.telefone = request.body.telefone;
+    userData.email = request.body.email;
+
+    await validateOrReject(userData, { 
+      stopAtFirstError: true,
+      skipMissingProperties: true,
+      validationError: { target: false, value: false }
+    });
+
+    await userRepository.update({ id: id }, userData);
+
+    reply.send({ message: "Usuário atualizado com sucesso." })
+
+  } catch (err) {
+    console.error(err);
+    return reply.status(400).send(err);
+  }
+}
+
+async function passwordUpdate(request: RegisterRequest , reply: FastifyReply) {
+  const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+
+  try {
+    if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+    const { id } = decodetoken; 
+
+    const userData = new User();
+    userData.senha = request.body.senha;
+
+    await validateOrReject(userData, { 
+      stopAtFirstError: true,
+      skipMissingProperties: true,
+      validationError: { target: false, value: false }
+    });
+
+    await userRepository.update({ id: id }, userData);
+
+    reply.send({ message: "Senha atualizada com sucesso." })
+
+  } catch (err) {
+    console.error(err);
+    return reply.status(400).send(err);
+  }
+}
+
 export default {
   oauth,
   me,
   recover,
-  register
+  register,
+  profile,
+  profileUpdate,
+  passwordUpdate
 }
