@@ -1,7 +1,8 @@
 import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn, BeforeUpdate, BeforeInsert, CreateDateColumn, UpdateDateColumn } from "typeorm"
-import { IsEmail, MinLength } from 'class-validator';
+import { IsEmail, MinLength, IsMobilePhone } from 'class-validator';
 import { UserTipo } from '@entity/UserTipo';
 import bcrypt from 'bcryptjs';
+import { IsCPF } from 'brazilian-class-validator';
 
 @Entity()
 export class User {
@@ -18,11 +19,18 @@ export class User {
     sobrenome: string;
 
     @Column({ unique: true })
-    @MinLength(11, { message: 'CPF curto demais.' })
+    @IsCPF()
     cpf: string;
 
-    @Column({ type: 'date', nullable: false })
-    nascimento: Date;
+    @Column({ unique: true })
+    @IsMobilePhone('pt-BR')
+    telefone: string;
+
+    @Column({ 
+      type: 'date', 
+      nullable: false
+   })
+    nascimento: string;
 
     @Column({ nullable: false, unique: true })
     @IsEmail()

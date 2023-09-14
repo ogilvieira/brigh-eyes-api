@@ -4,6 +4,5 @@ COPY ./package.json .
 RUN npm cache clean --force
 RUN npm install
 COPY . .
-ENV PORT=80
-EXPOSE 80
+EXPOSE 8000
 CMD [ "npm", "run", "dev" ]

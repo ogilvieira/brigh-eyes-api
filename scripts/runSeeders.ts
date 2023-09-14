@@ -4,6 +4,7 @@ import { runSeeder, createDatabase } from 'typeorm-extension';
 import { AppDataSource, DataBaseOptions } from '@plugins/database';
 import { DataSource } from "typeorm"
 import ProdutoSeeder from 'app/seed/Produto.seed';
+import UserSeed from 'app/seed/User.seed';
 
 async function seedOneByOne(seeds: any[], dataSource: DataSource) {
     
@@ -36,6 +37,7 @@ async function seedOneByOne(seeds: any[], dataSource: DataSource) {
     const dataSource = await AppDataSource.initialize();
 
     const seeds = [
+      UserSeed,
       ProdutoSeeder
     ];
 

@@ -5,6 +5,7 @@ import { User } from "@entity/User";
 import checkEncryptedPassword from "@helpers/checkEncryptedPassword";
 import getDecodedTokenByHeader from "@helpers/getDecodedTokenByHeader";
 import jwt from 'jsonwebtoken';
+import { validateOrReject } from 'class-validator';
 
 type OauthRequest = FastifyRequest<{
   Body: { 
@@ -16,7 +17,7 @@ type OauthRequest = FastifyRequest<{
 
 const userRepository = AppDataSource.getRepository(User);
 
-async function oauth(request: OauthRequest , reply: FastifyReply) { 
+async function oauth(request: OauthRequest , reply: FastifyReply) {
 
   const email = request.body?.email ?? '';
   const senha = request.body?.senha ?? '';
@@ -70,7 +71,7 @@ async function me(request: FastifyRequest , reply: FastifyReply) {
     const { id } = decodetoken;
 
     const user = await userRepository.findOne({ 
-      select: ['id', 'nome', 'sobrenome'],
+      select: ['id', 'nome', 'sobrenome', 'nascimento'],
       relations: ['tipo'],
       where: { id: id }
     });
@@ -112,8 +113,52 @@ async function recover(request: RecoverRequest , reply: FastifyReply) {
   }
 }
 
+type RegisterRequest = FastifyRequest<{
+  Body: { 
+    nome: string;
+    sobrenome: string;
+    nascimento: string;
+    cpf: string;
+    telefone: string;
+    email: string;
+    senha: string;
+  };
+}>
+
+async function register(request: RegisterRequest, reply: FastifyReply) {
+
+  const userData = new User();
+  userData.nome = request.body.nome,
+  userData.sobrenome = request.body.sobrenome,
+  userData.nascimento = request.body.nascimento,
+  userData.cpf = request.body.cpf,
+  userData.telefone = request.body.telefone,
+  userData.email = request.body.email,
+  userData.senha = request.body.senha
+
+  try {
+    await validateOrReject(userData, { 
+      stopAtFirstError: true,
+      skipMissingProperties: true,
+      validationError: { target: false, value: false }
+    });
+  } catch (errors) {
+    return reply.status(400).send(errors);
+  }
+
+  try {
+    const user = await userRepository.create(userData)
+    await userRepository.save(user)
+    reply.send({ message: "Usuário cadastrado com sucesso!" });
+  } catch (err) {
+    console.error("Error", err);
+    return reply.status(400).send(err);
+  }
+}
+
 export default {
   oauth,
   me,
-  recover
+  recover,
+  register
 }

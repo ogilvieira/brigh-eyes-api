@@ -14,7 +14,8 @@ export default class UserSeeder implements Seeder {
                 email: 'ariane.figueiredo@senac.com.br',
                 senha: "123456",
                 nascimento: "1996-12-05",
-                cpf: "63656803099"
+                cpf: "63656803099",
+                telefone: "64981872573"
             },
             {
                 nome: 'David',
@@ -23,7 +24,8 @@ export default class UserSeeder implements Seeder {
                 senha: "123456",
                 tipo_key: "editor",
                 nascimento: "1996-12-05",
-                cpf: "64656289027"
+                cpf: "64656289027",
+                telefone: "9634671554"
             },
             {
                 nome: 'Felipe',
@@ -31,7 +33,8 @@ export default class UserSeeder implements Seeder {
                 email: 'felipe.valli@senac.com.br',
                 senha: "123456",
                 nascimento: "1996-12-05",
-                cpf: "18917658091"
+                cpf: "18917658091",
+                telefone: "5523223908"
             },
             {
                 nome: 'Gilmair',
@@ -40,7 +43,8 @@ export default class UserSeeder implements Seeder {
                 senha: "123456",
                 tipo_key: "gerente",
                 nascimento: "1996-12-05",
-                cpf: "26904048000"
+                cpf: "26904048000",
+                telefone: "9528486445"
             },
             {
                 nome: 'Ignacio',
@@ -49,7 +53,8 @@ export default class UserSeeder implements Seeder {
                 senha: "123456",
                 tipo_key: "editor",
                 nascimento: "1996-12-05",
-                cpf: "89812945008"
+                cpf: "89812945008",
+                telefone: "9235555768"
             },
             {
                 nome: 'Josué',
@@ -57,7 +62,8 @@ export default class UserSeeder implements Seeder {
                 email: 'josué.neto@senac.com.br',
                 senha: "123456",
                 nascimento: "1996-12-05",
-                cpf: "83717924095"
+                cpf: "83717924095",
+                telefone: "7939426297"
             },
             {
                 nome: 'Lucas',
@@ -66,7 +72,8 @@ export default class UserSeeder implements Seeder {
                 senha: "123456",
                 tipo_key: "gerente",
                 nascimento: "1996-12-05",
-                cpf: "48511886095"
+                cpf: "48511886095",
+                telefone: "8231134243"
             }
         ]);
         await repository.save(users);
