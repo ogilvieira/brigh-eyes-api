@@ -1,5 +1,6 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm"
 import { MinLength } from 'class-validator';
+import { User } from "./User";
   
 @Entity()
 export class UserTipo {
@@ -12,6 +13,8 @@ export class UserTipo {
         message: 'Nome de chave curto demais.'
     })
     key: string
+    
+    @OneToMany(() => User, (user) => user.tipo)
 
     @Column()
     @MinLength(2, {

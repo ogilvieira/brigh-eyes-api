@@ -11,6 +11,10 @@ export class Cartao {
     @ManyToOne(() => User)
     @JoinColumn({ name: "user_id", referencedColumnName: "id" })
     user: User;
+    
+
+    @Column({ nullable: false })
+    user_id: number
 
     @Column({ nullable: false })
     @Length(16, 16, {

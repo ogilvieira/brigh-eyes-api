@@ -1,9 +1,9 @@
-import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn, BeforeUpdate, BeforeInsert, CreateDateColumn, UpdateDateColumn } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, DeleteDateColumn, ManyToOne, JoinColumn, BeforeUpdate, BeforeInsert, CreateDateColumn, UpdateDateColumn, OneToMany } from "typeorm"
 import { IsEmail, MinLength, IsMobilePhone } from 'class-validator';
-import { UserTipo } from '@entity/UserTipo';
 import bcrypt from 'bcryptjs';
 import { IsCPF } from 'brazilian-class-validator';
-
+import { UserTipo } from './UserTipo';
+import { Cartao } from "./Cartao";
 @Entity()
 export class User {
 
@@ -48,7 +48,10 @@ export class User {
         this.senha = bcrypt.hashSync(this.senha, salt);
       }
     }
-    
+
+    @OneToMany(() => Cartao, (cartao) => cartao.user)
+    cartoes: Cartao[]
+
     @ManyToOne(() => UserTipo)
     @JoinColumn({ name: "tipo_key", referencedColumnName: "key" })
     tipo: UserTipo;

@@ -6,8 +6,7 @@ import { FindOperator, ILike } from "typeorm"
 const produtosRepository = AppDataSource.getRepository(Produto);
 
 interface WhereOptions {
-  name?: FindOperator<string>,
-  descricao?: FindOperator<string>
+  [key: string]: FindOperator<string>,
 }
 
 async function all(request: FastifyRequest , reply: FastifyReply) {
@@ -21,10 +20,12 @@ async function all(request: FastifyRequest , reply: FastifyReply) {
     page
   }
 
-  const whereOptions: WhereOptions = {}
+  const whereOptions: WhereOptions[] = [];
 
   if( requestQuery?.terms ) {
-    whereOptions.name = ILike(`%${requestQuery.terms}%`);
+    whereOptions.push({ name: ILike(`%${requestQuery.terms}%`) });
+    whereOptions.push({ fabricante: ILike(`%${requestQuery.terms}%`) });
+    whereOptions.push({ descricao: ILike(`%${requestQuery.terms}%`) });
   }
 
 

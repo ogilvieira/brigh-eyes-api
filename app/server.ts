@@ -4,6 +4,7 @@ import fastifyCors from '@fastify/cors';
 import fastifyFormBody from '@fastify/formbody';
 import fastifyAutoload from '@fastify/autoload';
 import fastifyStatic from '@fastify/static';
+import "reflect-metadata";
 
 import auth from '@plugins/auth';
 import path from 'path';

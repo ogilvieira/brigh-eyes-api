@@ -5,19 +5,20 @@ import { AppDataSource, DataBaseOptions } from '@plugins/database';
 import { DataSource } from "typeorm"
 import ProdutoSeeder from 'app/seed/Produto.seed';
 import UserSeed from 'app/seed/User.seed';
+import UserTipoSeeder from 'app/seed/UserTipo.seed';
 
 async function seedOneByOne(seeds: any[], dataSource: DataSource) {
     
     if(!seeds.length){ return; }
 
-    const seedOfTime: string = seeds.pop() ?? '';
+    const seedOfTime: string = seeds.shift() ?? '';
     
-    console.info(`Seed: "${seedOfTime}"\n\n`);
+    console.info(`Seed: "${seedOfTime.constructor.name}"\n\n`);
 
     try {
         const res = await runSeeder(dataSource, seedOfTime);
         console.info("done =>", res);
-        return seedOneByOne(seeds, dataSource);
+        await seedOneByOne(seeds, dataSource);
     } catch(err) {
         console.error(err);
     }
@@ -37,6 +38,7 @@ async function seedOneByOne(seeds: any[], dataSource: DataSource) {
     const dataSource = await AppDataSource.initialize();
 
     const seeds = [
+      UserTipoSeeder,
       UserSeed,
       ProdutoSeeder
     ];

@@ -662,7 +662,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Estojo 3D - Hipopótamo",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-3d-hipopotamo-57089.jpg",
             "descricao": "Os estojos 3D em formato de animais possuem outros 5 modelos:\r\n- Elefante (Amarelo)\r\n- Peixe (Lil&aacute;s)\r\n- Porco (Rosa)\r\n- Sapo (Verde)\r\n- Urso (Cinza)\r\n&nbsp;",
             "preco": 79
@@ -767,14 +767,14 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Estojo Pocket Top Line - Branco",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-pocket-top-line-branco.jpg",
             "descricao": "O Par Perfeito para sua lente de contato\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação (para todos os tipos de lentes, inclusive a escleral)\r\n- Um opcional: - Pinça pequena; ou Pegador de lentes gelatinosa; ou Ventosa Extratora; ou Ventosa Escleral.\r\n\r\nCores disponíveis:\r\nVerde, Rosa e Branco",
             "preco": 57
           },
           {
             "name": "Estojo Pocket Advance - Verde",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-pocket-advance-verde.jpg",
             "descricao": "A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação\r\n\r\nTamanho ideal para ser carregado. Protege seu estojo e facilita a remoção e colocação das lentes em qualquer lugar.\r\n\r\nCores disponíveis: \r\nVerde, Rosa e Branco",
             "preco": 45.9
@@ -788,7 +788,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Estojo Single Clear - Verde Transparente",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-single-clear-verde-transparente.jpg",
             "descricao": "Estojo com proteção dupla para lentes de contato rígida ou gelatinosa\r\n\r\nCapa dobrável no próprio corpo do estojo.\r\n\r\nDobradiça super resistente, estojo que cabe no bolso, tamanho ideal, leve e fácil de ser carregado.\r\n\r\nCores disponíveis: Verde, Azul, Branco e Transparente",
             "preco": 29.9
@@ -879,7 +879,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Renu Fresh PackON",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "renu-freshr-multiuso-packon.jpg",
             "descricao": "Renu Fresh PackON\r\nSolu&ccedil;&atilde;o de limpeza para o cuidado di&aacute;rio das lentes de contato gelatinosas, incluindo silicone hidrogel.\r\nEmbalagem econ&ocirc;mica.\r\n\r\nLimpa\r\nDesinfecta em 4 horas\r\nConserva\r\nLubrifica\r\nHidrata\r\nRemove prote&iacute;nas\r\n\r\nA&nbsp;Solu&ccedil;&atilde;o Multiuso Renu&reg;&nbsp;Fresh&nbsp;foi desenvolvida especialmente para voc&ecirc;, que se preocupa com a seguran&ccedil;a e o conforto oferecidos pelas suas lentes de contato gelatinosas, incluindo as de silicone hidrogel.\r\nRenu&reg;&nbsp;Fresh&nbsp;limpa, removendo as impurezas da superf&iacute;cie, enquanto atua para desprender e remover as prote&iacute;nas naturais das l&aacute;grimas - que podem ficar acumuladas e incrustadas nas lentes de contato, com potencial para causar desconforto e irrita&ccedil;&atilde;o. Al&eacute;m disso, a a&ccedil;&atilde;o desinfectante da Solu&ccedil;&atilde;o Renu&reg;&nbsp;Fresh elimina fungos e bact&eacute;rias das suas lentes.\r\nE, para manter o conforto di&aacute;rio durante o uso e a melhor conserva&ccedil;&atilde;o poss&iacute;vel durante o regime de uso de cada lente, a formula&ccedil;&atilde;o da&nbsp;solu&ccedil;&atilde;o Renu&reg;&nbsp;Fresh&nbsp;garante a lubrifica&ccedil;&atilde;o ideal para a melhor experi&ecirc;ncia na coloca&ccedil;&atilde;o e retirada de suas lentes de contato (e na movimenta&ccedil;&atilde;o natural delas durante o uso), enquanto as mant&eacute;m com o percentual adequado de hidrata&ccedil;&atilde;o e nas melhores condi&ccedil;&otilde;es de conserva&ccedil;&atilde;o, at&eacute; o &uacute;ltimo dia antes do descarte recomendado.\r\nS&atilde;o 6 benef&iacute;cios em 1 &uacute;nica solu&ccedil;&atilde;o: limpeza, desinfec&ccedil;&atilde;o, conserva&ccedil;&atilde;o, lubrifica&ccedil;&atilde;o, hidrata&ccedil;&atilde;o e remo&ccedil;&atilde;o de prote&iacute;nas de suas lentes de contato.\r\nCaracter&iacute;sticas e Vantagens\r\n\r\nIdeal para pessoas que necessitam de praticidade e rapidez no cuidado das suas lentes de contato;\r\nProporciona a hidrata&ccedil;&atilde;o da lente garantindo conforto durante o seu uso;\r\nPromove a desinfec&ccedil;&atilde;o e limpeza em 4 horas.\r\n\r\nIndica&ccedil;&otilde;es\r\nIndicado para limpeza, remo&ccedil;&atilde;o de dep&oacute;sitos de prote&iacute;nas, lavagem, desinfec&ccedil;&atilde;o qu&iacute;mica e armazenamento de lentes de contato gelatinosas.\r\nApresenta&ccedil;&atilde;o (embalagem)\r\nRenu Fresh Solu&ccedil;&atilde;o Multiuso 355ml + 120ml + estojo para lentes de contato&nbsp;\r\n\r\nConhe&ccedil;a mais sobre as Solu&ccedil;&otilde;es Multiuso Bausch+Lomb\r\n&nbsp;\r\n\r\n&nbsp;\r\nAssista a campanha: Soro n&atilde;o &eacute; solu&ccedil;&atilde;o\r\n&nbsp;\r\n",
             "preco": 62
@@ -900,7 +900,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Renu Plus Gotas Lubrificante & Umidificante 8ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "renu-plus-8ml-gotas-umidificantes-56998.jpg",
             "descricao": "Renu Plus Gotas Lubrificante &amp; Umidificante 8ml\r\nGotas para uma lubrifica&ccedil;&atilde;o eficaz e umidifica&ccedil;&atilde;o das lentes de contato gelatinosas durante o seu uso.\r\nCaracter&iacute;sticas e Vantagens\r\nProporciona a umidifica&ccedil;&atilde;o adequada das lentes durante o uso.\r\nIndica&ccedil;&otilde;es\r\nIdeal para pessoas que exer&ccedil;am atividades que favore&ccedil;am o ressecamento das lentes (Ex.: tempo excessivo em frente ao computador), habitem regi&otilde;es com baixa umidade e/ou possuam insufici&ecirc;ncia na produ&ccedil;&atilde;o lacrimal.\r\nComposi&ccedil;&atilde;o\r\nSolu&ccedil;&atilde;o isot&ocirc;nica est&eacute;ril contendo &aacute;cido b&oacute;rico, cloreto de pot&aacute;ssio, borato de s&oacute;dio e cloreto de s&oacute;dio; preservada com &aacute;cido s&oacute;rbico 0,1% e edetato diss&oacute;dico 0,1%.\r\nPOVIDONA\r\nForma uma camada hidrof&iacute;lica na superf&iacute;cie da lente, hidratando-a proporcionando assim maior clareza na vis&atilde;o e conforto no uso.",
             "preco": 29.9
@@ -914,7 +914,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Biotrue Solução PackOn",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "biotrue-multiuso-packon.jpg",
             "descricao": "Biotrue Solu&ccedil;&atilde;o PackOn\r\nSolu&ccedil;&atilde;o bioinspirada desenvolvida para funcionar como os seus olhos, facilitando o uso de lentes de contato devido ao pH compat&iacute;vel com a l&aacute;grima saud&aacute;vel e proporcionando at&eacute; 20 horas de hidrata&ccedil;&atilde;o.\r\nEmbalagem econ&ocirc;mica.\r\nCaracter&iacute;sticas e Vantagens\r\n\r\nCont&eacute;m hialuronato de s&oacute;dio, proporcionando at&eacute; 20 horas de hidrata&ccedil;&atilde;o;\r\npH compat&iacute;vel como da l&aacute;grima saud&aacute;vel, evitando ard&ecirc;ncia;\r\nMant&eacute;m &iacute;ntegras as prote&iacute;nas ben&eacute;ficas da l&aacute;grima, respons&aacute;veis pela a&ccedil;&atilde;o antimicrobiana inerente.\r\n\r\nIndica&ccedil;&otilde;es\r\nIndicado para limpeza, remo&ccedil;&atilde;o de dep&oacute;sitos de prote&iacute;nas, lavagem, desinfec&ccedil;&atilde;o qu&iacute;mica e armazenamento de lentes de contato gelatinosas.\r\nApresenta&ccedil;&atilde;o (embalagem)\r\nBiotrue Solu&ccedil;&atilde;o Multiuso 300ml + 120ml + estojo para lentes de contato\r\nConhe&ccedil;a mais sobre as Solu&ccedil;&otilde;es Multiuso Bausch+Lomb\r\n&nbsp;\r\n\r\n&nbsp;\r\nAssista a campanha: Soro n&atilde;o &eacute; solu&ccedil;&atilde;o\r\n&nbsp;\r\n",
             "preco": 65
@@ -935,7 +935,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Renu Gotas Umidificantes 15ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "renu-plus-15ml-gotas-umidificantes-64284.jpg",
             "descricao": "Renu Gotas Umidificantes 15ml\r\nSua F&oacute;rmula suave remove part&iacute;culas que causam irrita&ccedil;&atilde;o nos olhos e alivia o ressecamento e desconforto ocasionais.\r\n&nbsp;\r\nCaracter&iacute;sticas e Vantagens\r\n&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proporciona a umidifica&ccedil;&atilde;o adequada das lentes durante o uso;\r\n&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elimina e previne a forma&ccedil;&atilde;o de dep&oacute;sitos durante o uso de lentes, reduzindo irrita&ccedil;&otilde;es causadas por impurezas.&nbsp;\r\nIndica&ccedil;&otilde;es\r\nIdeal para umidificar e evitar a forma&ccedil;&atilde;o de dep&oacute;sitos nas lentes de contato gelatinosas durante o uso.",
             "preco": 57
@@ -956,7 +956,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Renu Advanced Packon (255ml + 120 ml)",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "kit-renu-advanced-475ml-355ml-120-ml.jpg",
             "descricao": "RENU® ADVANCEDSolução multiusoCondiciona, limpa, remove proteínas, desinfeta, umidifica, lava e armazena.Modo de Usar: Para armazenamento, limpeza, conservação, umidificação, remoçãode proteínas e desinfecção das lentes, siga esses simples passos:PASSO 1: Coloque no mínimo 3 gotas de Renu® Advanced Solução Multiuso de cada lado das superfícies das lentes, esfregando delicadamente por 20 segundos.PASSO 2: Enxague completamente cada lado das lentes por 5 segundos, utilizandoRenu® Advanced Solução Multiuso.PASSO 3: Coloque as lentes de contato limpas no estojo e preencha com Renu®Advanced Solução Multiuso. Deixe as lentes mergulhadas na solução por no mínimo 4horas*. Lembre-se de sempre de utilizar a solução fresca – descarte a solução doestojo das lentes após cada uso.*Estudos demonstram que esse é o período necessário para que a Renu®AdvancedSolução Multiuso exerça sua capacidade de desinfecção para as seguintes bactérias:S. aureus, P. aeruginosa, S. marcescens, C. albicans e F. solani.Suas lentes agora estão prontas para uso. Se qualquer detrito permanecer na sualente de contato, lave-a com Renu® Advanced Solução Multiuso antes de colocá-la.Siga sempre as instruções de seu oftalmologista. Baseando-se em característicasquímicas individuais e tempo de uso da lente, seu oftalmologista pode recomendarprodutos e procedimentos adicionais.Caso não for usar as lentes de contato imediatamente, armazene-as no estojo paralentes. Não armazenar suas lentes em simples solução salina substituindo Renu® Advanced Solução Multiuso. A solução salina não desinfeta o material.As lentes podem ser armazenadas no estojo fechado por no máximo 30 dias. Casonecessite armazenar suas lentes por períodos maiores, estas devem ser limpas edesinfetadas com solução fresca de Renu®Advanced Solução Multiuso antes de serem colocadas.Mecanismo de ação: Quando usada diariamente, Renu® Advanced Solução Multiusodissolve proteínas e limpa, solta e remove acúmulos de filme, detritos e depósitos daslentes de contato gelatinosas. Renu® Advanced Solução Multiuso ajuda a evitar aformação de depósitos irritantes na superfície da lente. Mata micro-organismos nocivos na lente. Renu® Advanced Solução Multiuso também pode ser usada para enxaguar as lentes.Benefícios de Renu® Advanced Solução Multiuso: Renu® Advanced Solução Multiuso tem um sistema único de desinfecção tripla. Renu® Advanced Solução Multiuso reidrata as lentes.Indicações: O produto é indicado para o condicionamento diário, limpeza,umidificação, remoção de depósitos de proteínas, lavagem, desinfecção química (semaquecimento) e conservação de lentes de contato gelatinosas (hidrofílicas), incluindolentes de silicone hidrogel, conforme recomendação do seu oftalmologista.Contraindicações: Não existem contraindicações para o uso de Renu® Advanced Solução Multiuso. Porém, não o utilize caso seja alérgico a algum componente da sua fórmula.",
             "preco": 79.9
@@ -970,14 +970,14 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Kit Opti-Free Puremoist",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "kit-opti-free-pure-moist-300-ml-120-ml.jpg",
             "descricao": "Kit Opti-Free Puremoist\r\nOPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito para lente de contato fornece at&eacute; 16 horas de hidrata&ccedil;&atilde;o a partir do momento que voc&ecirc; colocar as lentes at&eacute; o final de seu dia &ndash; assim voc&ecirc; pode ter confian&ccedil;a em suas lentes de contato.\r\nApenas OPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito tem HydraGlyde Matriz Umidificante. Ela cria um escudo cont&iacute;nuo de umidade para manter a lente hidratada ao longo do dia. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para lentes de contato proporciona conforto de inser&ccedil;&atilde;o at&eacute; a remo&ccedil;&atilde;o.\r\nProte&iacute;nas e lip&iacute;dios de suas l&aacute;grimas podem acumular-se em suas lentes de contato, causando irrita&ccedil;&atilde;o e at&eacute; mesmo afetar a sua vis&atilde;o. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para de lentes de contato se liga a suas lentes para evitar ac&uacute;mulo de lip&iacute;dios e remover dep&oacute;sitos de prote&iacute;nas. Gra&ccedil;as a este poder avan&ccedil;ado contra dep&oacute;sitos, suas lentes v&atilde;o ficar limpas e com sensa&ccedil;&atilde;o de frescas.\r\nAl&eacute;m de oferecer at&eacute; 16 horas de hidrata&ccedil;&atilde;o e remo&ccedil;&atilde;o de dep&oacute;sitos, OPTI-FREE PureMoist Solu&ccedil;&atilde;o para lentes de contato tamb&eacute;m cont&eacute;m uma f&oacute;rmula de desinfec&ccedil;&atilde;o avan&ccedil;ada. A POLYQUAD and ALDOX sistema de desinfe&ccedil;&atilde;o duplo agem contra microrganismos nocivos, incluindo bact&eacute;rias, fungos e acanthamoeba. Estes ingredientes comprovadamente desinfetam todos os tipos de lentes de contato gelatinosas. Mas esta f&oacute;rmula especial ainda &eacute; suave o suficiente para olhos sens&iacute;veis.\r\nConte&uacute;do do Kit\r\nFrasco 300ml + Frasco 120ml + estojo para lentes de contato.\r\n*Lembre-se, somente o oftalmologista pode determinar a lente de contato e combina&ccedil;&atilde;o de solu&ccedil;&atilde;o que ir&aacute; funcionar melhor para voc&ecirc;.\r\nAssista sobre as Solu&ccedil;&otilde;es Opti-Free\r\n&nbsp;\r\n",
             "preco": 122
           },
           {
             "name": "Opti-Free PureMoist 90 ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "opti-free-pure-moist-90-ml.jpg",
             "descricao": "Opti-Free Puremoist - 90ml\r\nOPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito para lente de contato fornece at&eacute; 16 horas de hidrata&ccedil;&atilde;o a partir do momento que voc&ecirc; colocar as lentes at&eacute; o final de seu dia &ndash; assim voc&ecirc; pode ter confian&ccedil;a em suas lentes de contato.\r\nApenas OPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito tem HydraGlyde Matriz Umidificante. Ela cria um escudo cont&iacute;nuo de umidade para manter a lente hidratada ao longo do dia. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para lentes de contato proporciona conforto de inser&ccedil;&atilde;o at&eacute; a remo&ccedil;&atilde;o.\r\nProte&iacute;nas e lip&iacute;dios de suas l&aacute;grimas podem acumular-se em suas lentes de contato, causando irrita&ccedil;&atilde;o e at&eacute; mesmo afetar a sua vis&atilde;o. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para de lentes de contato se liga a suas lentes para evitar ac&uacute;mulo de lip&iacute;dios e remover dep&oacute;sitos de prote&iacute;nas. Gra&ccedil;as a este poder avan&ccedil;ado contra dep&oacute;sitos, suas lentes v&atilde;o ficar limpas e com sensa&ccedil;&atilde;o de frescas.\r\nAl&eacute;m de oferecer at&eacute; 16 horas de hidrata&ccedil;&atilde;o e remo&ccedil;&atilde;o de dep&oacute;sitos, OPTI-FREE PureMoist Solu&ccedil;&atilde;o para lentes de contato tamb&eacute;m cont&eacute;m uma f&oacute;rmula de desinfec&ccedil;&atilde;o avan&ccedil;ada. A POLYQUAD and ALDOX sistema de desinfe&ccedil;&atilde;o duplo agem contra microrganismos nocivos, incluindo bact&eacute;rias, fungos e acanthamoeba. Estes ingredientes comprovadamente desinfetam todos os tipos de lentes de contato gelatinosas. Mas esta f&oacute;rmula especial ainda &eacute; suave o suficiente para olhos sens&iacute;veis.\r\n*Lembre-se, somente o oftalmologista pode determinar a lente de contato e combina&ccedil;&atilde;o de solu&ccedil;&atilde;o que ir&aacute; funcionar melhor para voc&ecirc;.\r\n",
             "preco": 67.9
@@ -991,7 +991,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Kit Opti-Free Replenish",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "kit-opti-free-replenish-300-ml-120-ml.jpg",
             "descricao": "Kit Opti-Free Replenish\r\nOPTI-FREE RepleniSH solu&ccedil;&atilde;o de desinfec&ccedil;&atilde;o multiprop&oacute;sito para lentes de contato que limpa, reidrata, enx&aacute;gua, desinfeta e conserva. Ret&eacute;m a hidrata&ccedil;&atilde;o, intensificando o conforto.\r\nOPTI-FREE RepleniSH SDMP permite que muitos usu&aacute;rios tenham vis&atilde;o mais clara ao final do dia. Quando uma lente de contato &eacute; mergulhada na solu&ccedil;&atilde;o OPTI-FREE RepleniSH SDMP, a superf&iacute;cie da lente &eacute; recondicionada por um sistema exclusivo denominado TearGlyde. TearGlyde permite que a superf&iacute;cie da lente retenha uma fina camada de umidade natural dos olhos, mantendo as lentes hidratadas por at&eacute; 14 horas &ndash; 6 horas a mais do que outras solu&ccedil;&otilde;es para lentes de contato!\r\nA solu&ccedil;&atilde;o OPTI-FREE RepleniSH SDMP para lentes de contato incorpora novos ingredientes a um sistema de desinfec&ccedil;&atilde;o que tem sido utilizado h&aacute; mais de 20 anos. A Alcon continua a desenvolver novas tecnologias para manuten&ccedil;&atilde;o dos novos tipos de lentes dispon&iacute;veis. Esse foco permitiu ao OPTI-FREE RepleniSH SDMP continuar a obter alto n&iacute;vel de desinfec&ccedil;&atilde;o contra bact&eacute;rias e fungos.\r\nConte&uacute;do do Kit\r\nFrasco 300ml + Frasco 120ml + estojo para lentes de contato.\r\n*Lembre-se de que apenas o seu oftalmologista pode determinar a combina&ccedil;&atilde;o de lente de contato e solu&ccedil;&atilde;o que &eacute; correta para voc&ecirc;.\r\nAssista sobre as Solu&ccedil;&otilde;es Opti-Free\r\n&nbsp;\r\n",
             "preco": 129
@@ -1005,7 +1005,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Boston SIMPlus 120ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "boston-simplus-multiac-o-120ml.jpg",
             "descricao": "Boston SIMPlus 120ml\r\nSolu&ccedil;&atilde;o de limpeza para lentes de contato r&iacute;gidas g&aacute;s-perme&aacute;veis.\r\nCaracter&iacute;sticas e Vantagens\r\n\r\nRet&eacute;m Umidade, suavizando a intera&ccedil;&atilde;o das lentes com os olhos e promovendo maior conforto;\r\nPossui um sistema duplo de desinfec&ccedil;&atilde;o e remo&ccedil;&atilde;o de prote&iacute;nas;\r\nFacilita o manuseio das lentes de contato.\r\n\r\nIndica&ccedil;&otilde;es\r\nDesinfec&ccedil;&atilde;o qu&iacute;mica, limpeza, remo&ccedil;&atilde;o di&aacute;ria de prote&iacute;na, lubrifica&ccedil;&atilde;o, lavagem e armazenamento de lentes de contato r&iacute;gidas g&aacute;s-perme&aacute;veis.\r\nApresenta&ccedil;&atilde;o (embalagem)\r\nBoston SIMPlus Solu&ccedil;&atilde;o Multia&ccedil;&atilde;o 120ml\r\nBenef&iacute;cios\r\n\r\nMais conforto: Boston SIMPlus umidifica as lentes, suavizando o contato com os olhos;\r\nVis&atilde;o mais n&iacute;tida: Boston SIMPlus possui agentes de limpeza que removem dep&oacute;sitos de prote&iacute;nas acumulados durante o uso;\r\nMais sa&uacute;de: Boston SIMPlus elimina os microorganismos que possam acumular-se nas lentes de contato;\r\nMais conveni&ecirc;ncia: Todo o cuidado que suas lentes de contato r&iacute;gidas precisam, em 1 s&oacute; produto.\r\n",
             "preco": 92
@@ -1026,7 +1026,7 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Artelac Rebalance Gotas Umidificantes 10 ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "artelac-rebalance-gotas-umidificantes-10ml.jpg",
             "descricao": "\r\n\r\n\r\n\r\nArtelac Rebalance&nbsp;\r\n&Eacute;&nbsp;o mais indicado para aliviar e atenuar os sintomas de olho seco e &eacute; compat&iacute;vel com lentes de contato.\r\n\r\nF&oacute;rmula exclusiva:&nbsp;0,15% hialuronato de s&oacute;dio + Nutriente Lacrimal.\r\nAl&iacute;vio duradouro com 3 a 5 gotas por dia!\r\n\r\n\r\nCARACTER&Iacute;STICAS E VANTAGENS\r\n\r\n\r\n\r\nLubrifica&ccedil;&atilde;o instant&acirc;nea,\r\n\r\n\r\nF&aacute;cil de usar, bem tolerado e seguro;\r\n\r\n\r\nCont&eacute;m hialuronato de s&oacute;dio, que garante m&aacute;xima hidrata&ccedil;&atilde;o e al&iacute;vio.\r\n\r\n\r\n\r\n&nbsp;\r\n\r\nCOMO ARTELAC REBALANCE PODE AJUDAR OS SEUS OLHOS?\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nArtelac Rebalance cont&eacute;m pol&iacute;meros duplos de Hialuronato de s&oacute;dio e PEG 8000, Pot&aacute;ssio, Magn&eacute;sio, S&oacute;dio, e Vitamina B12 que lubrificam, suprem e reequilibram o filme lacrimal ajudando a romper a onda de sintomas de olho seco e a promover um ambiente da superf&iacute;cie ocular saud&aacute;vel protegendo a c&oacute;rnea de danos.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
             "preco": 145.9
@@ -1054,126 +1054,126 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Renu Fresh 120ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "renu-fresh-120ml-solucao-multiuso-64285.jpg",
             "descricao": "Renu Fresh 120ml\r\nSolu&ccedil;&atilde;o de limpeza para o cuidado di&aacute;rio das lentes de contato gelatinosas, incluindo silicone hidrogel.\r\nCaracter&iacute;sticas e Vantagens\r\n\r\nIdeal para pessoas que necessitam de praticidade e rapidez no cuidado das suas lentes de contato;\r\nProporciona a hidrata&ccedil;&atilde;o da lente garantindo conforto durante o seu uso;\r\nPromove a desinfec&ccedil;&atilde;o e limpeza em 4 horas.\r\n\r\nIndica&ccedil;&atilde;o\r\n\r\nLimpa\r\nDesinfecta em 4 horas\r\nConserva\r\nLubrifica\r\nHidrata\r\nRemove prote&iacute;nas\r\n\r\nReunidos, todos esses benef&iacute;cios asseguram a melhor conserva&ccedil;&atilde;o poss&iacute;vel das suas lentes, proporcionando a sensa&ccedil;&atilde;o de usar lentes novas todos os dias at&eacute; o &uacute;ltimo dia do regime de uso de cada lente &ndash; em outras palavras,&nbsp;CONFORTO!\r\nBenef&iacute;cios\r\n\r\nIdeal para pessoas que necessitam de praticidade e rapidez no cuidado de suas lentes de contato;\r\nProporciona melhor conforto e acuidade visual;\r\nDesinfec&ccedil;&atilde;o e limpeza em 4hrs.\r\n\r\nA&nbsp;Solu&ccedil;&atilde;o Multiuso Renu&reg;&nbsp;Fresh&nbsp;foi desenvolvida especialmente para voc&ecirc;, que se preocupa com a seguran&ccedil;a e o conforto oferecidos pelas suas lentes de contato gelatinosas, incluindo as de silicone hidrogel.\r\nRenu&reg;&nbsp;Fresh&nbsp;limpa, removendo as impurezas da superf&iacute;cie, enquanto atua para desprender e remover as prote&iacute;nas naturais das l&aacute;grimas - que podem ficar acumuladas e incrustadas nas lentes de contato, com potencial para causar desconforto e irrita&ccedil;&atilde;o. Al&eacute;m disso, a a&ccedil;&atilde;o desinfectante da Solu&ccedil;&atilde;o Renu&reg;&nbsp;Fresh elimina fungos e bact&eacute;rias das suas lentes.\r\nE, para manter o conforto di&aacute;rio durante o uso e a melhor conserva&ccedil;&atilde;o poss&iacute;vel durante o regime de uso de cada lente, a formula&ccedil;&atilde;o da&nbsp;solu&ccedil;&atilde;o Renu&reg;&nbsp;Fresh&nbsp;garante a lubrifica&ccedil;&atilde;o ideal para a melhor experi&ecirc;ncia na coloca&ccedil;&atilde;o e retirada de suas lentes de contato (e na movimenta&ccedil;&atilde;o natural delas durante o uso), enquanto as mant&eacute;m com o percentual adequado de hidrata&ccedil;&atilde;o e nas melhores condi&ccedil;&otilde;es de conserva&ccedil;&atilde;o, at&eacute; o &uacute;ltimo dia antes do descarte recomendado.\r\nS&atilde;o 6 benef&iacute;cios em 1 &uacute;nica solu&ccedil;&atilde;o: limpeza, desinfec&ccedil;&atilde;o, conserva&ccedil;&atilde;o, lubrifica&ccedil;&atilde;o, hidrata&ccedil;&atilde;o e remo&ccedil;&atilde;o de prote&iacute;nas de suas lentes de contato.\r\nApresenta&ccedil;&atilde;o (embalagem)\r\nRenu Fresh Solu&ccedil;&atilde;o Multiuso 120ml&nbsp;\r\n\r\nConhe&ccedil;a mais sobre as Solu&ccedil;&otilde;es Multiuso Bausch+Lomb\r\n&nbsp;\r\n\r\n&nbsp;\r\nAssista a campanha: Soro n&atilde;o &eacute; solu&ccedil;&atilde;o\r\n&nbsp;\r\n",
             "preco": 39
           },
           {
             "name": "Renu Fresh 60ml",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "renu-freshr-60ml.jpg",
             "descricao": "Renu Fresh 60ml\r\nSolu&ccedil;&atilde;o de limpeza para o cuidado di&aacute;rio das lentes de contato gelatinosas, incluindo silicone hidrogel.\r\nEmbalagem no tamanho ideal para levar na bolsa ou em viagens curtas!\r\nCaracter&iacute;sticas e Vantagens\r\n\r\nIdeal para pessoas que necessitam de praticidade e rapidez no cuidado das suas lentes de contato;\r\nProporciona a hidrata&ccedil;&atilde;o da lente garantindo conforto durante o seu uso;\r\nPromove a desinfec&ccedil;&atilde;o e limpeza em 4 horas.\r\n\r\nIndica&ccedil;&atilde;o\r\n\r\nLimpa\r\nDesinfecta em 4 horas\r\nConserva\r\nLubrifica\r\nHidrata\r\nRemove prote&iacute;nas\r\n\r\nReunidos, todos esses benef&iacute;cios asseguram a melhor conserva&ccedil;&atilde;o poss&iacute;vel das suas lentes, proporcionando a sensa&ccedil;&atilde;o de usar lentes novas todos os dias at&eacute; o &uacute;ltimo dia do regime de uso de cada lente &ndash; em outras palavras,&nbsp;CONFORTO!\r\nBenef&iacute;cios\r\n\r\nIdeal para pessoas que necessitam de praticidade e rapidez no cuidado de suas lentes de contato;\r\nProporciona melhor conforto e acuidade visual;\r\nDesinfec&ccedil;&atilde;o e limpeza em 4hrs.\r\n\r\nA&nbsp;Solu&ccedil;&atilde;o Multiuso Renu&reg;&nbsp;Fresh&nbsp;foi desenvolvida especialmente para voc&ecirc;, que se preocupa com a seguran&ccedil;a e o conforto oferecidos pelas suas lentes de contato gelatinosas, incluindo as de silicone hidrogel.\r\nRenu&reg;&nbsp;Fresh&nbsp;limpa, removendo as impurezas da superf&iacute;cie, enquanto atua para desprender e remover as prote&iacute;nas naturais das l&aacute;grimas - que podem ficar acumuladas e incrustadas nas lentes de contato, com potencial para causar desconforto e irrita&ccedil;&atilde;o. Al&eacute;m disso, a a&ccedil;&atilde;o desinfectante da Solu&ccedil;&atilde;o Renu&reg;&nbsp;Fresh elimina fungos e bact&eacute;rias das suas lentes.\r\nE, para manter o conforto di&aacute;rio durante o uso e a melhor conserva&ccedil;&atilde;o poss&iacute;vel durante o regime de uso de cada lente, a formula&ccedil;&atilde;o da&nbsp;solu&ccedil;&atilde;o Renu&reg;&nbsp;Fresh&nbsp;garante a lubrifica&ccedil;&atilde;o ideal para a melhor experi&ecirc;ncia na coloca&ccedil;&atilde;o e retirada de suas lentes de contato (e na movimenta&ccedil;&atilde;o natural delas durante o uso), enquanto as mant&eacute;m com o percentual adequado de hidrata&ccedil;&atilde;o e nas melhores condi&ccedil;&otilde;es de conserva&ccedil;&atilde;o, at&eacute; o &uacute;ltimo dia antes do descarte recomendado.\r\nS&atilde;o 6 benef&iacute;cios em 1 &uacute;nica solu&ccedil;&atilde;o: limpeza, desinfec&ccedil;&atilde;o, conserva&ccedil;&atilde;o, lubrifica&ccedil;&atilde;o, hidrata&ccedil;&atilde;o e remo&ccedil;&atilde;o de prote&iacute;nas de suas lentes de contato.\r\nApresenta&ccedil;&atilde;o (embalagem)\r\nRenu Fresh Solu&ccedil;&atilde;o Multiuso 60ml &ndash; Ideal para Viagens\r\n\r\nConhe&ccedil;a mais sobre as Solu&ccedil;&otilde;es Multiuso Bausch+Lomb\r\n&nbsp;\r\n\r\n&nbsp;\r\n&nbsp;\r\nAssista a campanha: Soro n&atilde;o &eacute; solu&ccedil;&atilde;o\r\n&nbsp;\r\n",
             "preco": 27
           },
           {
             "name": "Estojo 3D - Porco",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-3d-porquinho-57091.jpg",
             "descricao": "Os estojos 3D em formato de animais s&atilde;o apresentados em outros 5 modelos:\r\n- Elefante (Amarelo)\r\n- Hipop&oacute;tamo (Verde Claro)\r\n- Peixe (Lil&aacute;s)\r\n- Sapo (Verde)\r\n- Urso (Cinza)\r\n&nbsp;\r\n&nbsp;\r\n&nbsp;\r\n",
             "preco": 79.9
           },
           {
             "name": "Estojo Joaninha",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-joaninha-look-vision-64291.jpg",
             "descricao": "preencher",
             "preco": 7
           },
           {
             "name": "Estojo Bola de Baseball",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-bola-de-baseball.jpg",
             "descricao": "preencher",
             "preco": 7
           },
           {
             "name": "Estojo Lockit Convenience C/Pinca - Branco",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-lockit-convenience-c-pinca-branco.jpg",
             "descricao": "Tamanho ideal para carregar tudo o que precisa para sua lente de contato\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação\r\n- Um frasco para solução de limpeza e conservação\r\n- Um dos opcionais: pinça, pegador, ventosa extratora ou ventosa escleral.\r\n\r\nCores disponíveis:\r\nBranco, Verde e Rosa",
             "preco": 65
           },
           {
             "name": "Estojo Pocket Advance - Rosa",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-pocket-advance-rosa.jpg",
             "descricao": "A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação\r\n\r\nTamanho ideal para ser carregado. Protege seu estojo e facilita a remoção e colocação das lentes em qualquer lugar.\r\n\r\nCores disponíveis: \r\nVerde, Rosa e Branco",
             "preco": 45.9
           },
           {
             "name": "Estojo e-lens Galáxia",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-e-lens-galaxia.jpg",
             "descricao": "preencher",
             "preco": 29.9
           },
           {
-            "name": "Estojo Transparente Azul - Look Vision",
-            "fabricante": "",
+            "name": "Estojo Transparente Azul - Inotec",
+            "fabricante": "Inotec",
             "imagem": "estojo-transparente-azul-look-vision.jpg",
             "descricao": "preencher",
             "preco": 5.9
           },
           {
             "name": "Estojo Bola de Tênis",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-bola-de-tenis.jpg",
             "descricao": "preencher",
             "preco": 7.9
           },
           {
             "name": "Estojo Pocket PP Quadrado - Branco",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-pocket-pp-quadrado-branco.jpg",
             "descricao": "preencher",
             "preco": 17
           },
           {
             "name": "Estojo Lockit Convenience C/Pinca - Rosa",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-lockit-convenience-c-pinca-rosa.jpg",
             "descricao": "Tamanho ideal para carregar tudo o que precisa para sua lente de contato\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação\r\n- Um frasco para solução de limpeza e conservação\r\n- Um dos opcionais: pinça, pegador, ventosa extratora ou ventosa escleral.\r\n\r\nCores disponíveis:\r\nBranco, Verde e Rosa",
             "preco": 65
           },
           {
             "name": "Estojo Pocket Top Line - Rosa",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-pocket-top-line-rosa.jpg",
             "descricao": "O Par Perfeito para sua lente de contato\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação (para todos os tipos de lentes, inclusive a escleral)\r\n- Um opcional: - Pinça pequena; ou Pegador de lentes gelatinosa; ou Ventosa Extratora; ou Ventosa Escleral.\r\n\r\nCores disponíveis:\r\nVerde, Rosa e Branco",
             "preco": 55.9
           },
           {
-            "name": "Estojo Look Vision Azul Royal",
-            "fabricante": "",
+            "name": "Estojo Inotec Azul Royal",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-cor-azul-royal.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 9
           },
           {
             "name": "Estojo Ilusões",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-ilusoes-look-vision-64290.jpg",
             "descricao": "preencher",
             "preco": 7
           },
           {
-            "name": "Estojo Look Vision Azul Claro",
-            "fabricante": "",
+            "name": "Estojo Inotec Azul Claro",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-56970.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.9
           },
           {
             "name": "Estojo Single Clear - Transparente",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-single-clear-transparente.jpg",
             "descricao": "Estojo com proteção dupla para lentes de contato rígida ou gelatinosa\r\n\r\nCapa dobrável no próprio corpo do estojo.\r\n\r\nDobradiça super resistente, estojo que cabe no bolso, tamanho ideal, leve e fácil de ser carregado.\r\n\r\nCores disponíveis: Verde, Azul, Branco e Transparente",
             "preco": 29.9
           },
           {
             "name": "Estojo Lockit Convenience C/Pinca - Verde",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-lockit-convenience-c-pinca-verde.jpg",
             "descricao": "Tamanho ideal para carregar tudo o que precisa para sua lente de contato\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação\r\n- Um frasco para solução de limpeza e conservação\r\n- Um dos opcionais: pinça, pegador, ventosa extratora ou ventosa escleral.\r\n\r\nCores disponíveis:\r\nBranco, Verde e Rosa",
             "preco": 62
@@ -1193,50 +1193,50 @@ export default class ProdutoSeeder implements Seeder {
             "preco": 1237
           },
           {
-            "name": "Estojo Look Vision Amarela",
-            "fabricante": "",
+            "name": "Estojo Inotec Amarela",
+            "fabricante": "Inotec",
             "imagem": "estojo-bolas-look-vision-64289.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.9
           },
           {
-            "name": "Estojo Look Vision Verde Claro",
-            "fabricante": "",
+            "name": "Estojo Inotec Verde Claro",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-verde-claro.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.99
           },
           {
             "name": "Estojo Emotions",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-emotions.jpg",
             "descricao": "preencher",
             "preco": 7.9
           },
           {
             "name": "Estojo Bola de Basquete",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-bola-de-basquete.jpg",
             "descricao": "preencher",
             "preco": 7
           },
           {
             "name": "Estojo Single Clear - Branco",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-single-clear-branco.jpg",
             "descricao": "Estojo com proteção dupla para lentes de contato rígida ou gelatinosa\r\n\r\nCapa dobrável no próprio corpo do estojo.\r\n\r\nDobradiça super resistente, estojo que cabe no bolso, tamanho ideal, leve e fácil de ser carregado.\r\n\r\nCores disponíveis: Verde, Azul, Branco e Transparente",
             "preco": 29.9
           },
           {
             "name": "Estojo Pocket Advance - Branco",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-pocket-advance-branco.jpg",
             "descricao": "A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.\r\n\r\nKit contém:\r\n\r\n- Um porta estojo com espelho\r\n- Um estojo Top Line com anel de vedação\r\n\r\nTamanho ideal para ser carregado. Protege seu estojo e facilita a remoção e colocação das lentes em qualquer lugar.\r\n\r\nCores disponíveis: \r\nVerde, Rosa e Branco",
             "preco": 45
           },
           {
-            "name": "Estojo Look Vision Verde Bandeira",
-            "fabricante": "",
+            "name": "Estojo Inotec Verde Bandeira",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-cor-verde-bandeira.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.9
@@ -1250,28 +1250,28 @@ export default class ProdutoSeeder implements Seeder {
           },
           {
             "name": "Estojo Bola De Futebol",
-            "fabricante": "",
+            "fabricante": "Inotec",
             "imagem": "estojo-bola-de-futebol.jpg",
             "descricao": "preencher",
             "preco": 7
           },
           {
-            "name": "Estojo Look Vision Rosa Claro",
-            "fabricante": "",
+            "name": "Estojo Inotec Rosa Claro",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-cor-rosa-claro.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.99
           },
           {
-            "name": "Estojo Look Vision Vermelho",
-            "fabricante": "",
+            "name": "Estojo Inotec Vermelho",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-cor-vermelho.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.99
           },
           {
-            "name": "Estojo Look Vision Azul Escuro",
-            "fabricante": "",
+            "name": "Estojo Inotec Azul Escuro",
+            "fabricante": "Inotec",
             "imagem": "estojo-look-vision-cor-azul-escuro.jpg",
             "descricao": "Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.\r\n\r\n* Economia, proteção e segurança para as lentes de contato.\r\n\r\nO estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.",
             "preco": 7.9

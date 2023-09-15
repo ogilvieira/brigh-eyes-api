@@ -1,7 +1,12 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 import { AppDataSource } from "@plugins/database";
-import { Produto } from "@entity/Produto";
 import { FindOperator, ILike } from "typeorm"
+import { Produto } from "@entity/Produto";
+import { Cartao } from "@entity/Cartao";
+import { Endereco } from "@entity/Endereco";
+import { Pedido } from "@entity/Pedido";
+import { User } from "@entity/User";
+import getDecodedTokenByHeader from "@helpers/getDecodedTokenByHeader";
 
 const produtosRepository = AppDataSource.getRepository(Produto);
 
@@ -74,19 +79,51 @@ interface IBodyCreatePedido {
 
 async function create(request: FastifyRequest , reply: FastifyReply) {
   const requestBody = request.body as IBodyCreatePedido;
-
-  // const { produtoId } = requestBody;
   const { cc_numero, cc_nome, cc_data_expiracao } = requestBody;
 
-  const cartao = {
-    numero: cc_numero,
-    nome: cc_nome,
-    data_expiracao: cc_data_expiracao 
-  };
-  const pedido = {};
-  const endereco = {};
+  try {
+    const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+     if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+    const user_id = decodetoken.id;
+  
+    const user = await AppDataSource.getRepository(User).findOne({ 
+      select: ['id', 'tipo_key'],
+      where: { id: user_id }
+    });
+  
+    if( user?.tipo_key !== 'cliente') { 
+      throw Error("Usuário inválido para este tipo de solicitação.")
+    }
+ 
+    const cartao = new Cartao();   
+      cartao.user_id = user_id;
+      cartao.numero = cc_numero;
+      cartao.nome = cc_nome;
+      cartao.data_expiracao = cc_data_expiracao;
+    
 
-  reply.send({ cartao, pedido, endereco });
+    const endereco = new Endereco();
+    // endereco.logradouro = logr
+
+    const { produtoId } = requestBody;
+
+    const pedido = new Pedido();
+    pedido.produto_id = +produtoId;
+    // pedido.endereco_id = 
+
+  
+    console.info({ cartao, pedido, endereco })
+  
+    return reply.send({
+      id: 1,
+      message: "Compra realizada com sucesso",
+    });
+  } catch (err: any) {
+    return reply.status(400).send({
+      message: err?.message ?? "Erro ao tentar realizar o pedido."
+    });
+  }
+
 }
 
 export default {

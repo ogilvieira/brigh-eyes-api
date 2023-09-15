@@ -1,5 +1,6 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, OneToOne } from "typeorm"
 import { Length, MinLength } from 'class-validator';
+import { Pedido } from "./Pedido";
   
 @Entity()
 export class Endereco {
@@ -42,5 +43,8 @@ export class Endereco {
         message: 'UF precisa ter apenas 2 caracteres.'
     })
     uf: string
+
+    @OneToOne(() => Pedido)
+    pedido: Pedido
 
 }
