@@ -8,7 +8,7 @@ export class Produto {
     id: number
 
     @Column()
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Nome de Produto curto demais.'
     })
     name: string
@@ -20,7 +20,7 @@ export class Produto {
     imagem: string
 
     @Column()
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Descrição curta demais.'
     })
     descricao: string

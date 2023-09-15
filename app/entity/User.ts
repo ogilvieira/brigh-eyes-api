@@ -11,11 +11,11 @@ export class User {
     id: number
 
     @Column({ nullable: false })
-    @MinLength(3, { message: 'Nome curto demais.' })
+    @MinLength(2, { message: 'Nome curto demais.' })
     nome: string;
 
     @Column()
-    @MinLength(3, { message: 'Sobrenome curto demais.' })
+    @MinLength(2, { message: 'Sobrenome curto demais.' })
     sobrenome: string;
 
     @Column({ unique: true })

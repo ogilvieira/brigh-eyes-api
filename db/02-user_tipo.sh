@@ -11,7 +11,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     );
     INSERT INTO public.user_tipo VALUES (1, 'cliente', 'Cliente');
     INSERT INTO public.user_tipo VALUES (2, 'editor', 'Editor(a)');
-    INSERT INTO public.user_tipo VALUES (3, 'gerente', 'Gerente');
+    INSERT INTO public.user_tipo VALUES (2, 'gerente', 'Gerente');
   COMMIT;
 EOSQL
 

@@ -65,7 +65,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     - Siga as instruções do seu oftalmologista e da embalagem do produto;
     - Guarde suas lentes em local adequado e limpe o estojo regularmente;
     - Use produtos que higienizam da forma correta e que sejam compatíveis com elas.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',247.00),
-      (3,'SofLens Toric','SofLens','lentes-de-contato-soflens-toric-56951.jpg','Lentes de contato Soflens Toric
+      (2,'SofLens Toric','SofLens','lentes-de-contato-soflens-toric-56951.jpg','Lentes de contato Soflens Toric
      
     Quem tem astigmatismo sabe como é importante se adaptar às lentes de contato para ter uma vida mais prática e com qualidade de visão. Por isso, as lentes de contato Soflens Toric, fabricadas pela renomada Bausch &amp; Lomb, são projetadas para ajudar as pessoas com astigmatismo a desfrutar de uma visão cristalina com um alto nível de conforto.
      
@@ -520,7 +520,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Indicação
     Indicadas para pessoas com miopia e hipermetropiaDescarte diárioIdeal para quem deseja mais praticidade no dia a dia
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',142.00),
-      (167,'Estojo Lockit Convenience C/Pinca - Verde','','estojo-lockit-convenience-c-pinca-verde.jpg','Tamanho ideal para carregar tudo o que precisa para sua lente de contato
+      (167,'Estojo Lockit Convenience C/Pinca - Verde','Inotec','estojo-lockit-convenience-c-pinca-verde.jpg','Tamanho ideal para carregar tudo o que precisa para sua lente de contato
 
     Kit contém:
 
@@ -724,7 +724,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
      
     Lembramos que é sempre importante consultar um oftalmologista para saber qual a indicação de uso ideal para o seu caso.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',427.90),
-      (30,'PureVision2 Toric','PureVision2','lentes-de-contato-purevision2-toric.jpg','Lentes de contato Purevision2 Toric
+      (20,'PureVision2 Toric','PureVision2','lentes-de-contato-purevision2-toric.jpg','Lentes de contato Purevision2 Toric
     Uma visão com mais qualidade, lapidada pela estabilidade, nitidez e conforto das lentes de contato Purevision2 Toric. Essas lentes de contato de silicone hidrogel, com descarte mensal, são indicadas para correção do astigmatismo e apresentam bordas finas, arredondadas e maior conforto durante o uso. As lentes de contato Purevision2 Toric possuem tecnologia Auto Align DesignTM, uma combinação do Prisma de Lastro com o Lastro Periférico, que aumenta a estabilidade da lente no olho, oferecendo uma visão nítida e consistente em todos os momentos.Feitas para serem usadas por longos períodos, essas lentes garantem visão saudável e conforto por até 16 horas de uso, todos os dias do mês.
      
      
@@ -742,7 +742,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Indicação
      
     Lentes indicadas para correção de astigmatismoUso: Diário ou prolongado de 1 a 30 dias*;Descarte: Mensal;Apresentação: Cartucho com 6 lentes.*Consulte seu oftalmologista para saber a indicação ideal para o seu caso.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',287.90),
-      (31,'Ultra Toric para Astigmatismo','Ultra','lente-ultra-toric-para-astigmatismo.jpg','Lentes de contato ULTRA® para Astigmatismo
+      (21,'Ultra Toric para Astigmatismo','Ultra','lente-ultra-toric-para-astigmatismo.jpg','Lentes de contato ULTRA® para Astigmatismo
      
     Conforto, saúde ocular e alta qualidade visual. As características das, já conhecidas, lentes de contato ULTRA®, agora para quem tem astigmatismo.As lentes de contato ULTRA® para Astigmatismo são fabricadas pela pioneira Bausch &amp; Lomb, e contam com uma superfície umectável devido a tecnologia MoistureSeal™. Isso significa que a superfície da lente é hidrofílica, proporcionando uma alta capacidade de lubrificação, que mantém 95% de hidratação por até 16 horas de uso. Essas lentes de descarte mensal possuem desenho asférico que diminuem as aberrações causadas pelo astigmatismo, garantindo nitidez para a visão. Além disso, essas lentes também proporcionam uma fácil adaptação.
      
@@ -782,7 +782,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
     Como Cuidar destas Lentes de Contato:
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',127.99),
-      (32,'Acuvue Oasys 1-Day com Hydraluxe Astigmatismo','Acuvue Oasys','acuvue-clear-1-lc.jpg','Lentes de Contato Acuvue Oasys 1-Day com Hydraluxe Astigmatismo:
+      (22,'Acuvue Oasys 1-Day com Hydraluxe Astigmatismo','Acuvue Oasys','acuvue-clear-1-lc.jpg','Lentes de Contato Acuvue Oasys 1-Day com Hydraluxe Astigmatismo:
      
     A inovação e tecnologia das lentes de contato diárias da Acuvue, feitas especialmente para quem tem astigmatismo. A Acuvue Oasys 1-Day com Hydraluxe Astigmatismo são feitas com Tecnologia HydraLuxe™, que ajuda a diminuir a sensação de olhos cansados devido ao uso de aparelhos digitais.
      
@@ -813,7 +813,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     ✔ Visão estável e de qualidade, independentemente de como você movimenta sua cabeça ou seus olhos.                             
     ✔ Uso único e descarte diário, dispensando o uso de estojo e solução de limpeza. Disponíveis em embalagens com 30 unidades.                                         
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',249.00),
-      (33,'Soflens Daily','SofLens','lentes-de-contato-soflens-daily-64273.jpg','Lentes de contato Soflens Daily
+      (23,'Soflens Daily','SofLens','lentes-de-contato-soflens-daily-64273.jpg','Lentes de contato Soflens Daily
      
     As lentes de contato Soflens Daily, fabricadas pela pioneira da indústria ótica Bausch &amp; Lomb, são lentes de descarte diário, perfeitas para quem tem uma vida corrida e precisa de praticidade.Com ótimo custo-benefício, essas lentes possuem a tecnologia ComfortMoist™, promovendo conforto durante todo o período de uso.As Soflens Daily são lentes super finas e criam uma camada de umidade que facilita a adaptação e o uso. Com formato asférico, essas lentes promovem uma alta definição para uma visão mais nídia.Como devem ser descartadas no fim do dia, essas lentes oferecem maior praticidade, eliminando a necessidade de limpeza e armazenagem.
      
@@ -823,7 +823,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     ✔ Alta definição, proporcionando visão nítida e clara durante todo o dia;✔ Tecnologia ComfortMoist™ que mantém os olhos hidratados✔ Blister desenvolvido para facilitar a remoção e manuseio das lentes✔ Praticidade do descarte diário ✔ Sem necessidade de limpeza✔ Desenho asférico, que reduz a aberração esférica;✔ Melhor qualidade de visão à noite ou em ambientes escuros;✔ Mais detalhes, contrastes e cores vivas, com redução de halos e glare.
      
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',135.00),
-      (34,'Optima Natural Look','Optima','lentes-de-contato-natural-look-com-grau-56939.jpg','
+      (24,'Optima Natural Look','Optima','lentes-de-contato-natural-look-com-grau-56939.jpg','
     Lentes de contato Optima Natural Look
      
     Lente de contato colorida de descarte anual, a Optima Natural Look reproduz os detalhes da íris com grande fidelidade, proporcionando uma aparência natural em 10 opções de cores.
@@ -859,7 +859,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
 
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',65.90),
-      (35,'Acuvue Oasys com Transitions','Acuvue Oasys','acuvue-oasys-com-transitions.jpg','Lentes de contato Acuvue Oasys com Transitions™
+      (25,'Acuvue Oasys com Transitions','Acuvue Oasys','acuvue-oasys-com-transitions.jpg','Lentes de contato Acuvue Oasys com Transitions™
      
     As lentes de contato Acuvue Oasys com Transitions™ une as tecnologias de Acuvue Oasys com a das lentes Transitions, corrigindo a visão de quem tem miopia ou hipermetropia, enquanto protegem seus olhos da mudança de luz dos ambientes.
      
@@ -892,7 +892,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     - Guarde suas lentes em local adequado e limpe o estojo regularmente;
     - Use produtos que higienizam da forma correta e que sejam compatíveis com elas.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',255.90);
     INSERT INTO public.produto (id,"name",fabricante,imagem,descricao,deleted_at,created_at,updated_at,preco) VALUES
-      (36,'Dailies Aqua Comfort Plus - 10 Unidades','Dailies','lentes-de-contato-dailies-aqua-comfort-plus-com-10-unidades.jpg','Lentes de Contato Dailies AquaComfort Plus - 10 unidades:
+      (26,'Dailies Aqua Comfort Plus - 10 Unidades','Dailies','lentes-de-contato-dailies-aqua-comfort-plus-com-10-unidades.jpg','Lentes de Contato Dailies AquaComfort Plus - 10 unidades:
      
     Se você tem uma rotina dinâmica e deseja experimentar a praticidade das lentes diárias, a Dailies AquaComfort Plus - 10 Unidades é perfeita para você.
      
@@ -921,7 +921,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
     As lentes de contato coloridas DAILIES AquaComfort Plus vêm em embalagem com 10 lentes de mesmo grau, de descarte diário.
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',55.00),
-      (109,'Estojo Pocket Top Line - Branco','','estojo-pocket-top-line-branco.jpg','O Par Perfeito para sua lente de contato
+      (109,'Estojo Pocket Top Line - Branco','Inotec','estojo-pocket-top-line-branco.jpg','O Par Perfeito para sua lente de contato
 
     Kit contém:
 
@@ -931,7 +931,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis:
     Verde, Rosa e Branco',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',57.00),
-      (37,'Lunare Anual - com grau','Lunare','lentes-de-contato-lunare-anual-com-grau-63901.jpg','Lentes de contato Lunare Anual com grau:
+      (27,'Lunare Anual - com grau','Lunare','lentes-de-contato-lunare-anual-com-grau-63901.jpg','Lentes de contato Lunare Anual com grau:
      
     As lentes de contato Lunare Mensal com grau são indicadas para a correção visual de pessoas com miopia e hipermetropia, enquanto oferecem uma nova cor para os olhos desses usuários.
     Com a exclusiva tecnologia TKI (Tri-Kolor Inside), essas lentes de descarte anual são produzidas com três camadas internas de pigmentação. O que proporciona conforto superior e aspecto mais natural.
@@ -960,7 +960,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Tecnologia Tki
      
     Com a inovadora tecnologia TKI (Tri-Kolor Inside), a pigmentação das lentes Lunare é feita dentro da lente, ao contrário de outras lentes coloridas, em que o pigmento é colocado na superfície.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',95.90),
-      (38,'SoftFlex 55W','SoftFlex','lentes-de-contato-softflex-55w-64278.jpg','Lentes de contato SoftFlex 55W
+      (28,'SoftFlex 55W','SoftFlex','lentes-de-contato-softflex-55w-64278.jpg','Lentes de contato SoftFlex 55W
      
     As lentes de contato Softflex 55W, fabricadas pela Central Oftálmica são lentes de descarte anual com excelente custo benefício. Indicadas para pessoas que tenham Miopia (dificuldade de enxergar de longe) ou Hipermetropia (dificuldade de enxergar de perto).Essas lentes de hidrogel são feitas com material hidrofílico de alta performance que garante maior conforto e uma adaptação mais fácil. Com 55% de hidratação e boa oxigenação, essas lentes se mantêm úmidas durante o uso e evitam o acúmulo de resíduos.As lentes Softflex 55W tem um design diferenciado que reduz a aberrações visuais e oferece uma visão nítida durante todo o uso.
      
@@ -973,7 +973,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',59.90),
-      (39,'PureVision2  Multifocal','PureVision2','purevision2-multi-focal.jpg','Lentes de contato Purevision2 Multifocal
+      (29,'PureVision2  Multifocal','PureVision2','purevision2-multi-focal.jpg','Lentes de contato Purevision2 Multifocal
     Fabricadas pela Bausch&amp;Lomb, as lentes de contato PureVision2 Multifocal são feitas especialmente para pessoas que têm presbiopia, que é a dificuldade de enxergar de perto que surge após os 40 anos de idade.Essas lentes, que substituem os óculos bifocais ou multifocais, são confortáveis e oferecem uma visão nítida para objetos próximos e distantes.Feitas em silicone hidrogel, a PureVision2 Multifocal conta com a tecnologia  AerGel™, que permite que mais oxigênio chegue aos olhos e evita o acúmulo de resíduos na lente, prevenindo irritações e garantindo mais saúde para os olhos.Além disso, as lentes PureVision2 Multifocal retêm a umidade e mantem seus olhos hidratados durante todo o tempo de uso, garantindo maior conforto por até 16 horas de uso por dia durante um mês, desde que sejam sempre higienizadas e armazenadas em solução durante a noite.A PureVision2 Multifocal conta ainda com a nova geração do desenho Centro-Perto, possibilitando foco em qualquer distância. Bordas mais finas, arredondadas e adaptação mais simples.
      
 
@@ -1168,7 +1168,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.
      
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',225.90),
-      (110,'Estojo Pocket Advance - Verde','','estojo-pocket-advance-verde.jpg','A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.
+      (110,'Estojo Pocket Advance - Verde','Inotec','estojo-pocket-advance-verde.jpg','A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.
 
     Kit contém:
 
@@ -1179,7 +1179,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis: 
     Verde, Rosa e Branco',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',45.90),
-      (181,'Estojo Look Vision Azul Escuro','','estojo-look-vision-cor-azul-escuro.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (181,'Estojo Inotec Azul Escuro','Inotec','estojo-look-vision-cor-azul-escuro.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
@@ -2037,7 +2037,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',145.00),
       (93,'Natural Vision Ellegant Anual','Natural Vision','lentes-de-contato-natural-vision-color-ellegant-descarte-anual-plana-70208.jpg','Lentes de Contato Natural Vision Ellegant Anual:&nbsp;As Lentes de Contato da Linha Ellegant Natural Vision possuem 4 opções de cores.As lentes de contato coloridas atendem usuários que procuram apenas a utilização para fins estéticos a aquelas que necessitam de correção visual.&nbsp;&nbsp;&nbsp;Benefícios das lentes Natural Vision Ellegant Anual:&nbsp; Lentes coloridas com aspecto natural; Melhor custo benefício com descarte anual; Conforto e fácil adaptação.&nbsp;Como Cuidar destas Lentes de Contato:&nbsp;- Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.&nbsp;&nbsp;',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',85.00);
     INSERT INTO public.produto (id,"name",fabricante,imagem,descricao,deleted_at,created_at,updated_at,preco) VALUES
-      (94,'Estojo 3D - Hipopótamo','','estojo-3d-hipopotamo-57089.jpg','Os estojos 3D em formato de animais possuem outros 5 modelos:
+      (94,'Estojo 3D - Hipopótamo','Inotec','estojo-3d-hipopotamo-57089.jpg','Os estojos 3D em formato de animais possuem outros 5 modelos:
     - Elefante (Amarelo)
     - Peixe (Lil&aacute;s)
     - Porco (Rosa)
@@ -2204,7 +2204,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.
      
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',299.00),
-      (112,'Estojo Single Clear - Verde Transparente','','estojo-single-clear-verde-transparente.jpg','Estojo com proteção dupla para lentes de contato rígida ou gelatinosa
+      (112,'Estojo Single Clear - Verde Transparente','Inotec','estojo-single-clear-verde-transparente.jpg','Estojo com proteção dupla para lentes de contato rígida ou gelatinosa
 
     Capa dobrável no próprio corpo do estojo.
 
@@ -2492,7 +2492,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.
      
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',109.90),
-      (125,'Renu Fresh PackON','','renu-freshr-multiuso-packon.jpg','Renu Fresh PackON
+      (125,'Renu Fresh PackON','Inotec','renu-freshr-multiuso-packon.jpg','Renu Fresh PackON
     Solu&ccedil;&atilde;o de limpeza para o cuidado di&aacute;rio das lentes de contato gelatinosas, incluindo silicone hidrogel.
     Embalagem econ&ocirc;mica.
 
@@ -2571,7 +2571,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Observação: Caso o as especificações acima não se encaixem com os parâmetros que precisa,  CLIQUE AQUI!',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',767.90),
       (127,'Natural Vision Dreams Mensal','Natural Vision','lentes-de-contato-natural-vision-color-dreams-descarte-mensal-com-grau-70204.jpg','Lentes de Contato Natural Vision Dreams Mensal - Com Grau:&nbsp;Com traços marcantes, as lentes de contato Natural Vision Dreams possui um desenho maravilhoso deixando seus olhos naturais e belos.&nbsp;São 4 cores incríveis para você mudar o seu visual.&nbsp;As lentes de contato coloridas atendem usuários que procuram apenas a utilização para fins estéticos a aquelas que necessitam de correção visual.&nbsp;&nbsp;&nbsp;Benefícios das lentes Natural Vision Dreams Mensal:&nbsp;? Lentes coloridas com aspecto natural;? Melhor custo benefício com descarte mensal;? Conforto e fácil adaptação.&nbsp;Como Cuidar destas Lentes de Contato:- Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',89.90),
-      (128,'Renu Plus Gotas Lubrificante & Umidificante 8ml','','renu-plus-8ml-gotas-umidificantes-56998.jpg','Renu Plus Gotas Lubrificante &amp; Umidificante 8ml
+      (128,'Renu Plus Gotas Lubrificante & Umidificante 8ml','Inotec','renu-plus-8ml-gotas-umidificantes-56998.jpg','Renu Plus Gotas Lubrificante &amp; Umidificante 8ml
     Gotas para uma lubrifica&ccedil;&atilde;o eficaz e umidifica&ccedil;&atilde;o das lentes de contato gelatinosas durante o seu uso.
     Caracter&iacute;sticas e Vantagens
     Proporciona a umidifica&ccedil;&atilde;o adequada das lentes durante o uso.
@@ -2599,7 +2599,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
     Como Cuidar destas Lentes de Contato:
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',255.90),
-      (130,'Biotrue Solução PackOn','','biotrue-multiuso-packon.jpg','Biotrue Solu&ccedil;&atilde;o PackOn
+      (130,'Biotrue Solução PackOn','Inotec','biotrue-multiuso-packon.jpg','Biotrue Solu&ccedil;&atilde;o PackOn
     Solu&ccedil;&atilde;o bioinspirada desenvolvida para funcionar como os seus olhos, facilitando o uso de lentes de contato devido ao pH compat&iacute;vel com a l&aacute;grima saud&aacute;vel e proporcionando at&eacute; 20 horas de hidrata&ccedil;&atilde;o.
     Embalagem econ&ocirc;mica.
     Caracter&iacute;sticas e Vantagens
@@ -2657,7 +2657,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
     ATENÇÃO: devido a diferentes lotes do fabricante, as lentes podem sofrer alteração na tonalidade da cor.
     Prazo de validade:O prazo das lentes de contato lacradas é maior porque elas estão esterilizadas pelo processo de autoclave a 120 graus Celsius, livre de qualquer contaminação.A validade da lente começa a partir da abertura do lacre, pois o produto deixa de ser estéril, tendo influências de vários fatores para sua contaminação, como: proteínas da lágrima, fuligem, poeira, células epiteliais que se renovam, entre outros.O período de descartabilidade (troca anual ou mensal) deve ser respeitado de acordo com a orientação do fabricante. A diferença de uma descartabilidade para outra está relacionada com sua espessura e seu método de fabricação.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',142.00),
-      (133,'Renu Gotas Umidificantes 15ml','','renu-plus-15ml-gotas-umidificantes-64284.jpg','Renu Gotas Umidificantes 15ml
+      (133,'Renu Gotas Umidificantes 15ml','Inotec','renu-plus-15ml-gotas-umidificantes-64284.jpg','Renu Gotas Umidificantes 15ml
     Sua F&oacute;rmula suave remove part&iacute;culas que causam irrita&ccedil;&atilde;o nos olhos e alivia o ressecamento e desconforto ocasionais.
     &nbsp;
     Caracter&iacute;sticas e Vantagens
@@ -2671,7 +2671,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Caracter&iacute;sticas do Produto:As lentes Colourise s&atilde;o lentes de contato gelatinosas coloridas de grande impacto visual que mesclam com a cor dos olhos, evidenciando seu olhar e mudando o seu visual.A Colourise est&aacute; dispon&iacute;vel em 4 cores: azul, verde, mel e cinza.Especial para usu&aacute;rios que querem destacar seu olhar, com cores mais impactantes e intensas.
 
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',95.99),
-      (136,'Renu Advanced Packon (355ml + 120 ml)','','kit-renu-advanced-475ml-355ml-120-ml.jpg','RENU® ADVANCEDSolução multiusoCondiciona, limpa, remove proteínas, desinfeta, umidifica, lava e armazena.Modo de Usar: Para armazenamento, limpeza, conservação, umidificação, remoçãode proteínas e desinfecção das lentes, siga esses simples passos:PASSO 1: Coloque no mínimo 3 gotas de Renu® Advanced Solução Multiuso de cada lado das superfícies das lentes, esfregando delicadamente por 20 segundos.PASSO 2: Enxague completamente cada lado das lentes por 5 segundos, utilizandoRenu® Advanced Solução Multiuso.PASSO 3: Coloque as lentes de contato limpas no estojo e preencha com Renu®Advanced Solução Multiuso. Deixe as lentes mergulhadas na solução por no mínimo 4horas*. Lembre-se de sempre de utilizar a solução fresca – descarte a solução doestojo das lentes após cada uso.*Estudos demonstram que esse é o período necessário para que a Renu®AdvancedSolução Multiuso exerça sua capacidade de desinfecção para as seguintes bactérias:S. aureus, P. aeruginosa, S. marcescens, C. albicans e F. solani.Suas lentes agora estão prontas para uso. Se qualquer detrito permanecer na sualente de contato, lave-a com Renu® Advanced Solução Multiuso antes de colocá-la.Siga sempre as instruções de seu oftalmologista. Baseando-se em característicasquímicas individuais e tempo de uso da lente, seu oftalmologista pode recomendarprodutos e procedimentos adicionais.Caso não for usar as lentes de contato imediatamente, armazene-as no estojo paralentes. Não armazenar suas lentes em simples solução salina substituindo Renu® Advanced Solução Multiuso. A solução salina não desinfeta o material.As lentes podem ser armazenadas no estojo fechado por no máximo 30 dias. Casonecessite armazenar suas lentes por períodos maiores, estas devem ser limpas edesinfetadas com solução fresca de Renu®Advanced Solução Multiuso antes de serem colocadas.Mecanismo de ação: Quando usada diariamente, Renu® Advanced Solução Multiusodissolve proteínas e limpa, solta e remove acúmulos de filme, detritos e depósitos daslentes de contato gelatinosas. Renu® Advanced Solução Multiuso ajuda a evitar aformação de depósitos irritantes na superfície da lente. Mata micro-organismos nocivos na lente. Renu® Advanced Solução Multiuso também pode ser usada para enxaguar as lentes.Benefícios de Renu® Advanced Solução Multiuso: Renu® Advanced Solução Multiuso tem um sistema único de desinfecção tripla. Renu® Advanced Solução Multiuso reidrata as lentes.Indicações: O produto é indicado para o condicionamento diário, limpeza,umidificação, remoção de depósitos de proteínas, lavagem, desinfecção química (semaquecimento) e conservação de lentes de contato gelatinosas (hidrofílicas), incluindolentes de silicone hidrogel, conforme recomendação do seu oftalmologista.Contraindicações: Não existem contraindicações para o uso de Renu® Advanced Solução Multiuso. Porém, não o utilize caso seja alérgico a algum componente da sua fórmula.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',79.90),
+      (136,'Renu Advanced Packon (255ml + 120 ml)','Inotec','kit-renu-advanced-475ml-355ml-120-ml.jpg','RENU® ADVANCEDSolução multiusoCondiciona, limpa, remove proteínas, desinfeta, umidifica, lava e armazena.Modo de Usar: Para armazenamento, limpeza, conservação, umidificação, remoçãode proteínas e desinfecção das lentes, siga esses simples passos:PASSO 1: Coloque no mínimo 3 gotas de Renu® Advanced Solução Multiuso de cada lado das superfícies das lentes, esfregando delicadamente por 20 segundos.PASSO 2: Enxague completamente cada lado das lentes por 5 segundos, utilizandoRenu® Advanced Solução Multiuso.PASSO 3: Coloque as lentes de contato limpas no estojo e preencha com Renu®Advanced Solução Multiuso. Deixe as lentes mergulhadas na solução por no mínimo 4horas*. Lembre-se de sempre de utilizar a solução fresca – descarte a solução doestojo das lentes após cada uso.*Estudos demonstram que esse é o período necessário para que a Renu®AdvancedSolução Multiuso exerça sua capacidade de desinfecção para as seguintes bactérias:S. aureus, P. aeruginosa, S. marcescens, C. albicans e F. solani.Suas lentes agora estão prontas para uso. Se qualquer detrito permanecer na sualente de contato, lave-a com Renu® Advanced Solução Multiuso antes de colocá-la.Siga sempre as instruções de seu oftalmologista. Baseando-se em característicasquímicas individuais e tempo de uso da lente, seu oftalmologista pode recomendarprodutos e procedimentos adicionais.Caso não for usar as lentes de contato imediatamente, armazene-as no estojo paralentes. Não armazenar suas lentes em simples solução salina substituindo Renu® Advanced Solução Multiuso. A solução salina não desinfeta o material.As lentes podem ser armazenadas no estojo fechado por no máximo 30 dias. Casonecessite armazenar suas lentes por períodos maiores, estas devem ser limpas edesinfetadas com solução fresca de Renu®Advanced Solução Multiuso antes de serem colocadas.Mecanismo de ação: Quando usada diariamente, Renu® Advanced Solução Multiusodissolve proteínas e limpa, solta e remove acúmulos de filme, detritos e depósitos daslentes de contato gelatinosas. Renu® Advanced Solução Multiuso ajuda a evitar aformação de depósitos irritantes na superfície da lente. Mata micro-organismos nocivos na lente. Renu® Advanced Solução Multiuso também pode ser usada para enxaguar as lentes.Benefícios de Renu® Advanced Solução Multiuso: Renu® Advanced Solução Multiuso tem um sistema único de desinfecção tripla. Renu® Advanced Solução Multiuso reidrata as lentes.Indicações: O produto é indicado para o condicionamento diário, limpeza,umidificação, remoção de depósitos de proteínas, lavagem, desinfecção química (semaquecimento) e conservação de lentes de contato gelatinosas (hidrofílicas), incluindolentes de silicone hidrogel, conforme recomendação do seu oftalmologista.Contraindicações: Não existem contraindicações para o uso de Renu® Advanced Solução Multiuso. Porém, não o utilize caso seja alérgico a algum componente da sua fórmula.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',79.90),
       (137,'Impressions Three Tones Mensal','Impressions','lentes-de-contato-impressions-color-mensal.jpg','
 
     Impressions Colors Three Tones - Mensal
@@ -2698,7 +2698,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     - Crie o hábito de limpá-las todos os dias e as substitua no prazo recomendado pelo fabricante;- Siga as instruções do seu oftalmologista e da embalagem do produto;- Guarde suas lentes em local adequado e limpe o estojo regularmente;- Use produtos que higienizam da forma correta e que sejam compatíveis com elas.
      
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',82.90),
-      (138,'Kit Opti-Free Puremoist','','kit-opti-free-pure-moist-300-ml-120-ml.jpg','Kit Opti-Free Puremoist
+      (138,'Kit Opti-Free Puremoist','Inotec','kit-opti-free-pure-moist-300-ml-120-ml.jpg','Kit Opti-Free Puremoist
     OPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito para lente de contato fornece at&eacute; 16 horas de hidrata&ccedil;&atilde;o a partir do momento que voc&ecirc; colocar as lentes at&eacute; o final de seu dia &ndash; assim voc&ecirc; pode ter confian&ccedil;a em suas lentes de contato.
     Apenas OPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito tem HydraGlyde Matriz Umidificante. Ela cria um escudo cont&iacute;nuo de umidade para manter a lente hidratada ao longo do dia. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para lentes de contato proporciona conforto de inser&ccedil;&atilde;o at&eacute; a remo&ccedil;&atilde;o.
     Prote&iacute;nas e lip&iacute;dios de suas l&aacute;grimas podem acumular-se em suas lentes de contato, causando irrita&ccedil;&atilde;o e at&eacute; mesmo afetar a sua vis&atilde;o. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para de lentes de contato se liga a suas lentes para evitar ac&uacute;mulo de lip&iacute;dios e remover dep&oacute;sitos de prote&iacute;nas. Gra&ccedil;as a este poder avan&ccedil;ado contra dep&oacute;sitos, suas lentes v&atilde;o ficar limpas e com sensa&ccedil;&atilde;o de frescas.
@@ -2710,7 +2710,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     &nbsp;
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',122.00);
     INSERT INTO public.produto (id,"name",fabricante,imagem,descricao,deleted_at,created_at,updated_at,preco) VALUES
-      (139,'Opti-Free PureMoist 90 ml','','opti-free-pure-moist-90-ml.jpg','Opti-Free Puremoist - 90ml
+      (139,'Opti-Free PureMoist 90 ml','Inotec','opti-free-pure-moist-90-ml.jpg','Opti-Free Puremoist - 90ml
     OPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito para lente de contato fornece at&eacute; 16 horas de hidrata&ccedil;&atilde;o a partir do momento que voc&ecirc; colocar as lentes at&eacute; o final de seu dia &ndash; assim voc&ecirc; pode ter confian&ccedil;a em suas lentes de contato.
     Apenas OPTI-FREE PureMoist Solu&ccedil;&atilde;o de Desinfec&ccedil;&atilde;o Multiprop&oacute;sito tem HydraGlyde Matriz Umidificante. Ela cria um escudo cont&iacute;nuo de umidade para manter a lente hidratada ao longo do dia. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para lentes de contato proporciona conforto de inser&ccedil;&atilde;o at&eacute; a remo&ccedil;&atilde;o.
     Prote&iacute;nas e lip&iacute;dios de suas l&aacute;grimas podem acumular-se em suas lentes de contato, causando irrita&ccedil;&atilde;o e at&eacute; mesmo afetar a sua vis&atilde;o. OPTI-FREE PureMoist Solu&ccedil;&atilde;o para de lentes de contato se liga a suas lentes para evitar ac&uacute;mulo de lip&iacute;dios e remover dep&oacute;sitos de prote&iacute;nas. Gra&ccedil;as a este poder avan&ccedil;ado contra dep&oacute;sitos, suas lentes v&atilde;o ficar limpas e com sensa&ccedil;&atilde;o de frescas.
@@ -2743,7 +2743,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Cores disponíveis:
 
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',225.00),
-      (141,'Kit Opti-Free Replenish','','kit-opti-free-replenish-300-ml-120-ml.jpg','Kit Opti-Free Replenish
+      (141,'Kit Opti-Free Replenish','Inotec','kit-opti-free-replenish-300-ml-120-ml.jpg','Kit Opti-Free Replenish
     OPTI-FREE RepleniSH solu&ccedil;&atilde;o de desinfec&ccedil;&atilde;o multiprop&oacute;sito para lentes de contato que limpa, reidrata, enx&aacute;gua, desinfeta e conserva. Ret&eacute;m a hidrata&ccedil;&atilde;o, intensificando o conforto.
     OPTI-FREE RepleniSH SDMP permite que muitos usu&aacute;rios tenham vis&atilde;o mais clara ao final do dia. Quando uma lente de contato &eacute; mergulhada na solu&ccedil;&atilde;o OPTI-FREE RepleniSH SDMP, a superf&iacute;cie da lente &eacute; recondicionada por um sistema exclusivo denominado TearGlyde. TearGlyde permite que a superf&iacute;cie da lente retenha uma fina camada de umidade natural dos olhos, mantendo as lentes hidratadas por at&eacute; 14 horas &ndash; 6 horas a mais do que outras solu&ccedil;&otilde;es para lentes de contato!
     A solu&ccedil;&atilde;o OPTI-FREE RepleniSH SDMP para lentes de contato incorpora novos ingredientes a um sistema de desinfec&ccedil;&atilde;o que tem sido utilizado h&aacute; mais de 20 anos. A Alcon continua a desenvolver novas tecnologias para manuten&ccedil;&atilde;o dos novos tipos de lentes dispon&iacute;veis. Esse foco permitiu ao OPTI-FREE RepleniSH SDMP continuar a obter alto n&iacute;vel de desinfec&ccedil;&atilde;o contra bact&eacute;rias e fungos.
@@ -2775,7 +2775,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
 
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',169.90),
-      (143,'Boston SIMPlus 120ml','','boston-simplus-multiac-o-120ml.jpg','Boston SIMPlus 120ml
+      (143,'Boston SIMPlus 120ml','Inotec','boston-simplus-multiac-o-120ml.jpg','Boston SIMPlus 120ml
     Solu&ccedil;&atilde;o de limpeza para lentes de contato r&iacute;gidas g&aacute;s-perme&aacute;veis.
     Caracter&iacute;sticas e Vantagens
 
@@ -2842,7 +2842,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
      
      
     Atenção: devido a diferentes lotes do fabricante, as lentes podem sofrer alteração na tonalidade da cor.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',242.90),
-      (146,'Artelac Rebalance Gotas Umidificantes 10 ml','','artelac-rebalance-gotas-umidificantes-10ml.jpg','
+      (146,'Artelac Rebalance Gotas Umidificantes 10 ml','Inotec','artelac-rebalance-gotas-umidificantes-10ml.jpg','
 
 
 
@@ -2947,7 +2947,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     ✔ Conta com proteção UV.
      
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',157.00),
-      (150,'Renu Fresh 120ml','','renu-fresh-120ml-solucao-multiuso-64285.jpg','Renu Fresh 120ml
+      (150,'Renu Fresh 120ml','Inotec','renu-fresh-120ml-solucao-multiuso-64285.jpg','Renu Fresh 120ml
     Solu&ccedil;&atilde;o de limpeza para o cuidado di&aacute;rio das lentes de contato gelatinosas, incluindo silicone hidrogel.
     Caracter&iacute;sticas e Vantagens
 
@@ -2985,7 +2985,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Assista a campanha: Soro n&atilde;o &eacute; solu&ccedil;&atilde;o
     &nbsp;
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',39.00),
-      (151,'Renu Fresh 60ml','','renu-freshr-60ml.jpg','Renu Fresh 60ml
+      (151,'Renu Fresh 60ml','Inotec','renu-freshr-60ml.jpg','Renu Fresh 60ml
     Solu&ccedil;&atilde;o de limpeza para o cuidado di&aacute;rio das lentes de contato gelatinosas, incluindo silicone hidrogel.
     Embalagem no tamanho ideal para levar na bolsa ou em viagens curtas!
     Caracter&iacute;sticas e Vantagens
@@ -3025,7 +3025,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     Assista a campanha: Soro n&atilde;o &eacute; solu&ccedil;&atilde;o
     &nbsp;
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',27.00),
-      (152,'Estojo 3D - Porco','','estojo-3d-porquinho-57091.jpg','Os estojos 3D em formato de animais s&atilde;o apresentados em outros 5 modelos:
+      (152,'Estojo 3D - Porco','Inotec','estojo-3d-porquinho-57091.jpg','Os estojos 3D em formato de animais s&atilde;o apresentados em outros 5 modelos:
     - Elefante (Amarelo)
     - Hipop&oacute;tamo (Verde Claro)
     - Peixe (Lil&aacute;s)
@@ -3035,9 +3035,9 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     &nbsp;
     &nbsp;
     ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',79.90),
-      (153,'Estojo Joaninha','','estojo-joaninha-look-vision-64291.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
-      (154,'Estojo Bola de Baseball','','estojo-bola-de-baseball.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
-      (155,'Estojo Lockit Convenience C/Pinca - Branco','','estojo-lockit-convenience-c-pinca-branco.jpg','Tamanho ideal para carregar tudo o que precisa para sua lente de contato
+      (153,'Estojo Joaninha','Inotec','estojo-joaninha-look-vision-64291.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
+      (154,'Estojo Bola de Baseball','Inotec','estojo-bola-de-baseball.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
+      (155,'Estojo Lockit Convenience C/Pinca - Branco','Inotec','estojo-lockit-convenience-c-pinca-branco.jpg','Tamanho ideal para carregar tudo o que precisa para sua lente de contato
 
     Kit contém:
 
@@ -3048,7 +3048,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis:
     Branco, Verde e Rosa',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',65.00),
-      (156,'Estojo Pocket Advance - Rosa','','estojo-pocket-advance-rosa.jpg','A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.
+      (156,'Estojo Pocket Advance - Rosa','Inotec','estojo-pocket-advance-rosa.jpg','A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.
 
     Kit contém:
 
@@ -3059,12 +3059,12 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis: 
     Verde, Rosa e Branco',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',45.90),
-      (157,'Estojo e-lens Galáxia','','estojo-e-lens-galaxia.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',29.90),
-      (158,'Estojo Transparente Azul - Look Vision','','estojo-transparente-azul-look-vision.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',5.90);
+      (157,'Estojo e-lens Galáxia','Inotec','estojo-e-lens-galaxia.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',29.90),
+      (158,'Estojo Transparente Azul - Inotec','Inotec','estojo-transparente-azul-look-vision.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',5.90);
     INSERT INTO public.produto (id,"name",fabricante,imagem,descricao,deleted_at,created_at,updated_at,preco) VALUES
-      (159,'Estojo Bola de Tênis','','estojo-bola-de-tenis.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.90),
-      (160,'Estojo Pocket PP Quadrado - Branco','','estojo-pocket-pp-quadrado-branco.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',17.00),
-      (161,'Estojo Lockit Convenience C/Pinca - Rosa','','estojo-lockit-convenience-c-pinca-rosa.jpg','Tamanho ideal para carregar tudo o que precisa para sua lente de contato
+      (159,'Estojo Bola de Tênis','Inotec','estojo-bola-de-tenis.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.90),
+      (160,'Estojo Pocket PP Quadrado - Branco','Inotec','estojo-pocket-pp-quadrado-branco.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',17.00),
+      (161,'Estojo Lockit Convenience C/Pinca - Rosa','Inotec','estojo-lockit-convenience-c-pinca-rosa.jpg','Tamanho ideal para carregar tudo o que precisa para sua lente de contato
 
     Kit contém:
 
@@ -3075,7 +3075,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis:
     Branco, Verde e Rosa',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',65.00),
-      (162,'Estojo Pocket Top Line - Rosa','','estojo-pocket-top-line-rosa.jpg','O Par Perfeito para sua lente de contato
+      (162,'Estojo Pocket Top Line - Rosa','Inotec','estojo-pocket-top-line-rosa.jpg','O Par Perfeito para sua lente de contato
 
     Kit contém:
 
@@ -3085,18 +3085,18 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis:
     Verde, Rosa e Branco',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',55.90),
-      (163,'Estojo Look Vision Azul Royal','','estojo-look-vision-cor-azul-royal.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (163,'Estojo Inotec Azul Royal','Inotec','estojo-look-vision-cor-azul-royal.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
     O estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',9.00),
-      (164,'Estojo Ilusões','','estojo-ilusoes-look-vision-64290.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
-      (165,'Estojo Look Vision Azul Claro','','estojo-look-vision-56970.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (164,'Estojo Ilusões','Inotec','estojo-ilusoes-look-vision-64290.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
+      (165,'Estojo Inotec Azul Claro','Inotec','estojo-look-vision-56970.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
     O estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.90),
-      (166,'Estojo Single Clear - Transparente','','estojo-single-clear-transparente.jpg','Estojo com proteção dupla para lentes de contato rígida ou gelatinosa
+      (166,'Estojo Single Clear - Transparente','Inotec','estojo-single-clear-transparente.jpg','Estojo com proteção dupla para lentes de contato rígida ou gelatinosa
 
     Capa dobrável no próprio corpo do estojo.
 
@@ -3168,26 +3168,26 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Observação: Se as especificações não atenderem às suas necessidades CLIQUE AQUI!',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',1237.00);
     INSERT INTO public.produto (id,"name",fabricante,imagem,descricao,deleted_at,created_at,updated_at,preco) VALUES
-      (170,'Estojo Look Vision Amarela','','estojo-bolas-look-vision-64289.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (170,'Estojo Inotec Amarela','Inotec','estojo-bolas-look-vision-64289.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
     O estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.90),
-      (171,'Estojo Look Vision Verde Claro','','estojo-look-vision-verde-claro.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (171,'Estojo Inotec Verde Claro','Inotec','estojo-look-vision-verde-claro.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
     O estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.99),
-      (172,'Estojo Emotions','','estojo-emotions.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.90),
-      (173,'Estojo Bola de Basquete','','estojo-bola-de-basquete.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
-      (174,'Estojo Single Clear - Branco','','estojo-single-clear-branco.jpg','Estojo com proteção dupla para lentes de contato rígida ou gelatinosa
+      (172,'Estojo Emotions','Inotec','estojo-emotions.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.90),
+      (173,'Estojo Bola de Basquete','Inotec','estojo-bola-de-basquete.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
+      (174,'Estojo Single Clear - Branco','Inotec','estojo-single-clear-branco.jpg','Estojo com proteção dupla para lentes de contato rígida ou gelatinosa
 
     Capa dobrável no próprio corpo do estojo.
 
     Dobradiça super resistente, estojo que cabe no bolso, tamanho ideal, leve e fácil de ser carregado.
 
     Cores disponíveis: Verde, Azul, Branco e Transparente',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',29.90),
-      (175,'Estojo Pocket Advance - Branco','','estojo-pocket-advance-branco.jpg','A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.
+      (175,'Estojo Pocket Advance - Branco','Inotec','estojo-pocket-advance-branco.jpg','A forma inteligente e compacta de carregar e proteger as lentes de contato o dia inteiro.
 
     Kit contém:
 
@@ -3198,7 +3198,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 
     Cores disponíveis: 
     Verde, Rosa e Branco',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',45.00),
-      (176,'Estojo Look Vision Verde Bandeira','','estojo-look-vision-cor-verde-bandeira.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (176,'Estojo Inotec Verde Bandeira','Inotec','estojo-look-vision-cor-verde-bandeira.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
@@ -3220,14 +3220,14 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     ✔ Ideais para quem passa muito tempo em frente a telas
     ✔ Com tecnologia MoistureSeal™ que mantem 95% da umidade dos olhos
      ',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',177.00),
-      (178,'Estojo Bola De Futebol','','estojo-bola-de-futebol.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
-      (179,'Estojo Look Vision Rosa Claro','','estojo-look-vision-cor-rosa-claro.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (178,'Estojo Bola De Futebol','Inotec','estojo-bola-de-futebol.jpg','preencher',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.00),
+      (179,'Estojo Inotec Rosa Claro','Inotec','estojo-look-vision-cor-rosa-claro.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 
     O estojo foi desenhado com suaves estrias para que as lentes não colem no fundo e limitar a quantidade de solução a ser colocada, evitando desperdícios. Suas bordas arredondadas evitam que as lentes rasguem ou risquem ao serem retiradas do estojo.',NULL,'2023-09-13 14:05:01.379679','2023-09-13 14:05:01.379679',7.99);
     INSERT INTO public.produto (id,"name",fabricante,imagem,descricao,deleted_at,created_at,updated_at,preco) VALUES
-      (180,'Estojo Look Vision Vermelho','','estojo-look-vision-cor-vermelho.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
+      (180,'Estojo Inotec Vermelho','Inotec','estojo-look-vision-cor-vermelho.jpg','Estojo para Lentes de Contato GELATINOSA ou RÍGIDA.
 
     * Economia, proteção e segurança para as lentes de contato.
 

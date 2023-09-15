@@ -19,13 +19,13 @@ export class Cartao {
     numero: string
 
     @Column({ nullable: false })
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Nome no Cartão curto demais.'
     })
     nome: string
 
     @Column({ nullable: false })
-    @Length(4, 4, {
+    @Length(5, 5, {
         message: 'Data e expiração precisa estar no formato MM/AA.'
     })
     data_expiracao: string

@@ -8,13 +8,13 @@ export class Endereco {
     id: number
 
     @Column({ nullable: false })
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'CEP curto demais.'
     })
     cep: string
 
     @Column({ nullable: false })
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Logradouro curto demais.'
     })
     logradouro: string
@@ -26,7 +26,7 @@ export class Endereco {
     complemento: string
 
     @Column({ nullable: false })
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Nome do Bairro curto demais.'
     })
     bairro: string

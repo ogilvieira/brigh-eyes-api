@@ -8,13 +8,13 @@ export class UserTipo {
     id: number
 
     @Column({ nullable: false, unique: true })
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Nome de chave curto demais.'
     })
     key: string
 
     @Column()
-    @MinLength(3, {
+    @MinLength(2, {
         message: 'Nome curto demais.'
     })
     titulo: string
