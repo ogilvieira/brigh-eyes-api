@@ -4,7 +4,7 @@ export PGPASSWORD=$POSTGRES_PASSWORD;
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-EOSQL
   \connect $APP_DB_NAME $APP_DB_USER
   BEGIN;
-    CREATE TABLE public.pedido (
+    CREATE TABLE IF NOT EXISTS public.pedido (
       id integer NOT NULL,
       parcelas integer NOT NULL,
       total integer NOT NULL,

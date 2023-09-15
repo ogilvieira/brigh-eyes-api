@@ -4,7 +4,7 @@ export PGPASSWORD=$POSTGRES_PASSWORD;
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-EOSQL
   \connect $APP_DB_NAME $APP_DB_USER
   BEGIN;
-    CREATE TABLE public.endereco (
+    CREATE TABLE IF NOT EXISTS public.endereco (
       id integer NOT NULL,
       cep character varying NOT NULL,
       logradouro character varying NOT NULL,
