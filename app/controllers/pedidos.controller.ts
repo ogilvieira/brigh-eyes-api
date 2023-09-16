@@ -12,9 +12,32 @@ async function one(request: FastifyRequest , reply: FastifyReply) {
   const tipo_key = decodetoken.tipo_key; 
 
   const whereObj: { [key: string]: any } = { id: id };
+  const relationsArr = ['endereco', 'produto'];
+  const selectObj: { [key: string]: any } = { 
+    'id': true,
+    'receita': true,
+    'status': true, 
+    'data_entrega': true, 
+    'created_at': true, 
+    'total': true, 
+    'parcelas': true,
+    produto: {
+      imagem: true
+    }
+  }
 
   if( tipo_key === 'cliente' ) {
     whereObj.user_id = user_id
+  }
+
+  if(['cliente', 'gerente'].includes(tipo_key)){
+    relationsArr.push('user');
+    selectObj.user = {
+      email: true,
+      nome: true,
+      sobrenome: true,
+      id: true
+    }
   }
 
   try {
@@ -24,19 +47,8 @@ async function one(request: FastifyRequest , reply: FastifyReply) {
   
     const pedido = await AppDataSource.getRepository(Pedido).findOne({ 
       where: whereObj,
-      select: { 
-        'id': true,
-        'receita': true,
-        'status': true, 
-        'data_entrega': true, 
-        'created_at': true, 
-        'total': true, 
-        'parcelas': true,
-        produto: {
-          imagem: true
-        }
-      },
-      relations: ['endereco', 'produto'],
+      select: selectObj,
+      relations: relationsArr,
     });
 
     if(pedido?.produto?.imagem) {
@@ -59,6 +71,7 @@ async function all(request: FastifyRequest , reply: FastifyReply) {
   const tipo_key = decodetoken.tipo_key;
 
   const whereObj: { [key: string]: any } = {};
+  const relationsArr = ['produto'];
 
   if(tipo_key === 'cliente') {
     whereObj.user_id = user_id;
@@ -82,7 +95,7 @@ async function all(request: FastifyRequest , reply: FastifyReply) {
       order: {
         id: "DESC"
       },
-      relations: ['produto'],
+      relations: relationsArr,
     });
 
     items.map(a => {
