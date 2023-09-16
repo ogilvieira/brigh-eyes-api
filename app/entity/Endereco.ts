@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToOne } from "typeorm"
 import { Length, MinLength } from 'class-validator';
+import { IsCEP } from 'brazilian-class-validator';
 import { Pedido } from "./Pedido";
   
 @Entity()
@@ -9,9 +10,7 @@ export class Endereco {
     id: number
 
     @Column({ nullable: false })
-    @MinLength(2, {
-        message: 'CEP curto demais.'
-    })
+    @IsCEP()
     cep: string
 
     @Column({ nullable: false })

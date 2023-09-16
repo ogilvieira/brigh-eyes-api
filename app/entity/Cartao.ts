@@ -1,5 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm"
-import { Length, MinLength } from 'class-validator';
+import { IsCreditCard, Length, MinLength } from 'class-validator';
 import { User } from '@entity/User';
 
 @Entity()
@@ -10,16 +10,13 @@ export class Cartao {
 
     @ManyToOne(() => User)
     @JoinColumn({ name: "user_id", referencedColumnName: "id" })
-    user: User;
-    
+    user: User;   
 
     @Column({ nullable: false })
     user_id: number
 
     @Column({ nullable: false })
-    @Length(16, 16, {
-        message: 'Número de cartão curto demais.'
-    })
+    @IsCreditCard()
     numero: string
 
     @Column({ nullable: false })

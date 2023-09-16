@@ -3,6 +3,7 @@ import { Produto } from '@entity/Produto';
 import { User } from '@entity/User';
 import { Cartao } from '@entity/Cartao';
 import { Endereco } from "@entity/Endereco";
+import { Matches } from 'class-validator';
 @Entity()
 export class Pedido {
 
@@ -40,16 +41,21 @@ export class Pedido {
     @Column({ nullable: false })
     parcelas: number
 
-    @Column({ nullable: false })
+    @Column('decimal', { precision: 9, scale: 2, nullable: false, default: 0 })
     total: number
 
     @Column()
+    @Matches(/data:application\/pdf;base64,([^"]*)/g, {
+      message() {
+          return "A receita precisa ser um pdf base64."
+      },
+    })
     receita: string
 
-    @Column()
+    @Column({ nullable: true, default: '' })
     rastreio: string
 
-    @Column()
+    @Column({ default: ''})
     status: string
 
     @CreateDateColumn()
