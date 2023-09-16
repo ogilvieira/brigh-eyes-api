@@ -9,11 +9,11 @@ services:
       retries: 10
     restart: always
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: root
-      APP_DB_USER: postgres
-      APP_DB_PASS: root
-      APP_DB_NAME: brighteyes
+      POSTGRES_USER: $POSTGRES_USER
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+      APP_DB_USER: $DB_USER
+      APP_DB_PASS: $DB_PASS
+      APP_DB_NAME: $DB_NAME
     volumes:
       - ./db:/docker-entrypoint-initdb.d/
     ports:
@@ -26,16 +26,16 @@ services:
       - .:/app/
       - /app/node_modules
     environment:
-      HOST: '0.0.0.0'
-      PORT: 8080
-      SERVER_LOG: false
+      HOST: $HOST
+      PORT: $PORT
+      SERVER_LOG: $SERVER_LOG
       DB_HOST: database
-      DB_PORT: 5432
-      DB_USER: postgres
-      DB_PASS: root
-      DB_NAME: brighteyes
-      DB_SYNC: true
-      DB_LOG: false
+      DB_PORT: $DB_PORT
+      DB_USER: $DB_USER
+      DB_PASS: $DB_PASS
+      DB_NAME: $DB_NAME
+      DB_SYNC: $DB_SYNC
+      DB_LOG: $DB_LOG
       JWT_SECRET: br1g8t3y3s
       HOST_IMAGES: "http://localhost:8080/public/images/"
     depends_on: 
