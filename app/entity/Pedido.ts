@@ -3,7 +3,7 @@ import { Produto } from '@entity/Produto';
 import { User } from '@entity/User';
 import { Cartao } from '@entity/Cartao';
 import { Endereco } from "@entity/Endereco";
-import { Matches, IsNotEmpty } from 'class-validator';
+import { Matches, IsNotEmpty, IsNumber, Min } from 'class-validator';
 
 export type PedidoStatusType = "recebido" | "aguardando" | "enviado" | "cancelado";
 @Entity()
@@ -43,6 +43,9 @@ export class Pedido {
     @Column({ nullable: false })
     parcelas: number
 
+    @IsNotEmpty()
+    @Min(1)
+    @IsNumber({ maxDecimalPlaces: 2 })
     @Column('decimal', { precision: 9, scale: 2, nullable: false, default: 0 })
     total: number
 
