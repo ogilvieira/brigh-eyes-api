@@ -86,7 +86,7 @@ async function all(request: FastifyRequest , reply: FastifyReply) {
     });
 
     items.map(a => {
-      a.produto.imagem = `${process.env.HOST_IMAGES}${a.produto.imagem}`;
+      a.produto.imagem = a.produto.imagem.match(new RegExp("([a-zA-Z0-9s_\\.-:])+(.png|.jpg|.gif)$")) ? `${process.env.HOST_IMAGES}${a.produto.imagem}` : a.produto.imagem;
       return a;
     }); 
 

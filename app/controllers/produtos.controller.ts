@@ -43,7 +43,7 @@ async function all(request: FastifyRequest , reply: FastifyReply) {
       }
     });
     items.map(a => {
-      a.imagem = `${process.env.HOST_IMAGES}${a.imagem}`;
+      a.imagem = a.imagem.match(new RegExp("([a-zA-Z0-9s_\\.-:])+(.png|.jpg|.gif)$")) ? `${process.env.HOST_IMAGES}${a.imagem}` : a.imagem;
       return a;
     }); 
     reply.send({ produtos: items, total: count });
@@ -58,7 +58,7 @@ async function one(request: FastifyRequest , reply: FastifyReply) {
   try {
     const produto = await produtosRepository.findOneBy({ id });
     if(!produto){ throw Error("Produto não encontrado."); }
-    produto.imagem = `${process.env.HOST_IMAGES}${produto.imagem}`;
+    produto.imagem = produto.imagem.match(new RegExp("([a-zA-Z0-9s_\\.-:])+(.png|.jpg|.gif)$", 'gi')) ? `${process.env.HOST_IMAGES}${produto.imagem}` : produto.imagem;
 
     return produto;
   } catch (err) {

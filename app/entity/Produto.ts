@@ -15,6 +15,7 @@ export class Produto {
     @Column({ nullable: true })
     fabricante: string
 
+    @IsNotEmpty()
     @Column()
     imagem: string
 

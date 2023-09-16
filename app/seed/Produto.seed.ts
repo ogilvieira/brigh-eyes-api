@@ -6,7 +6,6 @@ export default class ProdutoSeeder implements Seeder {
     public async run(
         dataSource: DataSource,
     ): Promise<any> {
-        console.info("HERE!");
         const repository = dataSource.getRepository(Produto);
         await repository.insert([
           {
