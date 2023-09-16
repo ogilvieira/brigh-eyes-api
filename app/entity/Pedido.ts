@@ -3,7 +3,9 @@ import { Produto } from '@entity/Produto';
 import { User } from '@entity/User';
 import { Cartao } from '@entity/Cartao';
 import { Endereco } from "@entity/Endereco";
-import { Matches } from 'class-validator';
+import { Matches, IsNotEmpty } from 'class-validator';
+
+export type PedidoStatusType = "recebido" | "aguardando" | "enviado" | "cancelado";
 @Entity()
 export class Pedido {
 
@@ -44,6 +46,7 @@ export class Pedido {
     @Column('decimal', { precision: 9, scale: 2, nullable: false, default: 0 })
     total: number
 
+    @IsNotEmpty()
     @Column()
     @Matches(/data:application\/pdf;base64,([^"]*)/g, {
       message() {
@@ -55,8 +58,16 @@ export class Pedido {
     @Column({ nullable: true, default: '' })
     rastreio: string
 
-    @Column({ default: ''})
-    status: string
+    @Column({ nullable: true })
+    data_entrega: Date;
+
+    @Column({ 
+      nullable: false,
+      type: 'enum',
+      enum: ["recebido", "aguardando", "enviado", "cancelado"],
+      default: 'recebido'
+    })
+    status: PedidoStatusType
 
     @CreateDateColumn()
     created_at: Date;
