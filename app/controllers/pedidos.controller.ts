@@ -26,6 +26,7 @@ async function one(request: FastifyRequest , reply: FastifyReply) {
       where: whereObj,
       select: { 
         'id': true,
+        'receita': true,
         'status': true, 
         'data_entrega': true, 
         'created_at': true, 
