@@ -95,11 +95,6 @@ async function register(request: RegisterRequest, reply: FastifyReply) {
   userData.senha = request.body.senha;
 
   try {
-
-    if(!id || !validator.isNumeric(''+id)){
-      throw Error("ID de produto inválido.");
-    }
-
     const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
     if(!decodetoken?.id) { throw Error("Usuário não encontrado.") }
     const tipo_key = decodetoken.tipo_key; 
