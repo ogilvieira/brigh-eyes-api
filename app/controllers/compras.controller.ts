@@ -106,7 +106,7 @@ async function create(request: FastifyRequest , reply: FastifyReply) {
     const pedido = new Pedido();
     pedido.produto_id = +produtoId;
     pedido.user_id = user_id;
-    pedido.total = produto.preco;
+    pedido.total = +produto.preco;
     pedido.parcelas = +parcelas;
     pedido.receita = receita;
 
