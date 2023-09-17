@@ -134,7 +134,10 @@ async function updateOne(request: RegisterRequest, reply: FastifyReply) {
   userData.cpf = request.body.cpf;
   userData.telefone = request.body.telefone;
   userData.email = request.body.email;
-  userData.senha = request.body.senha;
+
+  if( request.body.senha ) {
+    userData.senha = request.body.senha;
+  }
 
   try {
     if(!id || !validator.isNumeric(''+id)){
@@ -163,7 +166,7 @@ async function updateOne(request: RegisterRequest, reply: FastifyReply) {
     if(!affected){
       throw Error("Item não encontrado para atualização.")
     }
-    reply.send({ message: "Usuário cadastrado com sucesso!" });
+    reply.send({ message: "Usuário atualizado com sucesso!" });
   } catch (err) {
     console.error("Error", err);
     return reply.status(400).send(err);
