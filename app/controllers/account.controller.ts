@@ -158,7 +158,6 @@ async function register(request: RegisterRequest, reply: FastifyReply) {
 
 async function profile(request: FastifyRequest , reply: FastifyReply) {
   const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
-
  
   try {
     if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }

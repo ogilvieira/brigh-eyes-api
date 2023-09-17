@@ -109,7 +109,75 @@ async function all(request: FastifyRequest , reply: FastifyReply) {
   }
 }
 
+async function toApprove (request: FastifyRequest, reply: FastifyReply) {
+  const { id } = request.params as any;
+  const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+  if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+  const tipo_key = decodetoken.tipo_key;
+
+  if(!['gerente', 'editor'].includes(tipo_key)){
+    return reply.status(400).send(Error("Tipo de usuário inválido para esta operação"));
+  }
+
+  try {
+    await AppDataSource.getRepository(Pedido).update(id, {
+      status: 'aguardando'
+    });
+    reply.send({ message: "Pedido aprovado com sucesso." })
+  } catch (err) {
+    reply.status(400).send(err);
+  }
+}
+
+
+async function toDeliver (request: FastifyRequest, reply: FastifyReply) {
+  const { id } = request.params as any;
+  const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+  if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+  const tipo_key = decodetoken.tipo_key;
+
+  if(!['gerente', 'editor'].includes(tipo_key)){
+    return reply.status(400).send(Error("Tipo de usuário inválido para esta operação"));
+  }
+
+  const { rastreio, data_entrega } = request.body as any;
+
+  try {
+    await AppDataSource.getRepository(Pedido).update(id, {
+      status: 'enviado',
+      rastreio: rastreio,
+      data_entrega: data_entrega
+    });
+    reply.send({ message: "Pedido despachado com sucesso." })
+  } catch (err) {
+    reply.status(400).send(err);
+  }
+}
+
+async function toCancel (request: FastifyRequest, reply: FastifyReply) {
+  const { id } = request.params as any;
+  const decodetoken: any = getDecodedTokenByHeader(request.headers['authorization'] ?? '');
+  if(!decodetoken || !decodetoken?.id) { throw Error("Usuário não encontrado.") }
+  const tipo_key = decodetoken.tipo_key;
+
+  if(!['gerente', 'editor'].includes(tipo_key)){
+    return reply.status(400).send(Error("Tipo de usuário inválido para esta operação"));
+  }
+
+  try {
+    await AppDataSource.getRepository(Pedido).update(id, {
+      status: 'cancelado'
+    });
+    reply.send({ message: "Pedido cancelado com sucesso." })
+  } catch (err) {
+    reply.status(400).send(err);
+  }
+}
+
 export default {
   one,
-  all
+  all,
+  toApprove,
+  toDeliver,
+  toCancel
 }
